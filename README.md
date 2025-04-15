@@ -22,7 +22,7 @@
   *Information Processing Society of Japan EC Symposium 2024*
 
 - 🏅 **Best Presentation Award**  
-  *Overwriting-AeroText – Transformer-based air-handwriting recognition system*  
+  *Lateral-AeroText – Transformer-based air-handwriting recognition system*  
   *IEICE Human Communication Group (IN)*
 
 ---
