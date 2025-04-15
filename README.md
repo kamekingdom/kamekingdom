@@ -1,4 +1,4 @@
-### 👋 Hi, I'm Yudai Nakamura | 中村 優大
+### 👋 Hi, I'm Yudai Nakamura | 中村 裕大
 
 I’m a Japanese university student passionate about integrating cutting-edge AI into real-world applications.  
 My strength lies in the end-to-end development of dialog systems using multimodal LLMs, from research and system design to practical deployment and public demonstrations.
