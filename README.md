@@ -1,6 +1,4 @@
-### Hello World 👋
-
-## 🐢 I'm Kame, Japanese university student 🗾
+### Hi there👋 I'm Yudai Nakamura, Japanese university student 🐢
 
 - 🔭 I’m currently working on ... Band Music 🎸
 - 🌱 I’m currently learning ... Programming 💻
