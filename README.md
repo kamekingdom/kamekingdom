@@ -19,11 +19,11 @@
 
 - 🥇 **Best Interactive Demo** & **Encouragement Award**  
   *“Picture Hunter II” - Real-time dialog game using multimodal LLM*  
-  *Information Processing Society of Japan EC Symposium 2024*
+  *IPSJ EC Symposium 2024*
 
 - 🏅 **Best Presentation Award**  
   *Lateral-AeroText – Transformer-based air-handwriting recognition system*  
-  *IEICE Human Communication Group (IN)*
+  *IEICE IN Research Conference*
 
 ---
 
