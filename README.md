@@ -1,11 +1,11 @@
 ### 👋 Hi, I'm Yudai Nakamura | 中村 裕大
 
-I’m a Japanese university student passionate about integrating cutting-edge AI into real-world applications.  
-My strength lies in the end-to-end development of dialog systems using multimodal LLMs, from research and system design to practical deployment and public demonstrations.
+🔍 Bridging advanced AI research with real-world impact through hands-on system development.
+
 
 ---
 
-### 🧑‍💻 What I Do
+### 🧑‍💻 Highlights
 
 - 🎓 Research & Development in Generative AI, Multimodal LLMs, and HCI
 - 🧠 Building AI-powered applications with GPT, Azure OCR, and embedding-based search
@@ -40,7 +40,8 @@ OpenAI API (GPT/Embedding) / Azure OCR / Google Vision API / GCP / Firebase / Me
 ### 📌 Featured Projects
 
 #### 🔗 [Picture Hunter II](https://kame-tech-lab.web.app/project-detail?id=picture-hunter-2)  
-> A real-time interactive game using multimodal LLM to generate monsters from real-world photos.
+> Developed an award-winning real-time game that generates monsters from real-world photos using multimodal LLMs.  
+> Presented at EC Symposium and received Best Interactive Demo Award.
 
 #### 🔗 [Overwriting AeroText](https://www.youtube.com/watch?v=B8NKtk1s5Lc)  
 > A novel character recognition interface using Transformer-based trajectory analysis.
@@ -74,5 +75,5 @@ Currently seeking:
 ### 📫 Contact Me
 
 - Email: yudainakamura.edu@gmail.com  
-- Twitter: [@kame_research](https://twitter.com/)  
+- Twitter: [@kame_research](https://twitter.com/kame_research)  
 - Website: [https://kame-tech-lab.web.app](https://kame-tech-lab.web.app)
