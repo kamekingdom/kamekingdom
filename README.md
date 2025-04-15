@@ -30,7 +30,7 @@ My strength lies in the end-to-end development of dialog systems using multimoda
 ### 🧰 Tech Stack
 
 #### Languages & Frameworks  
-Python / JavaScript / React / PHP / Dart / C / C++ / Java / R / C# / Flutter / Firebase / HTML/CSS
+Python / JavaScript / React / PHP / Dart / C / C++ / Java / R / C# / Flutter / Firebase / HTML / CSS
 
 #### AI & Cloud  
 OpenAI API (GPT/Embedding) / Azure OCR / Google Vision API / GCP / Firebase / MediaPipe / Docker / Max8 / Linux (Ubuntu)
