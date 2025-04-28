@@ -5,29 +5,28 @@
 
 ---
 
-### 🧑‍💻 Highlights
-
-- 🎓 Research & Development in Generative AI, Multimodal LLMs, and HCI
-- 🧠 Building AI-powered applications with GPT, Azure OCR, and embedding-based search
-- 🎮 Designing real-time games and apps that blend physical and digital experiences
-- 📱 Creating full-stack systems using React, Flutter, Firebase, and GCP
-- 👥 Leading large teams (300+ members) with tech and operational contributions
+###  Highlights
+-  Research & Development in Generative AI, Multimodal LLMs, and HCI
+-  Building AI-powered applications with GPT, Azure OCR, and embedding-based search
+-  Designing real-time games and apps that blend physical and digital experiences
+-  Creating full-stack systems using React, Flutter, Firebase, and GCP
+-  Leading large teams (300+ members) with tech and operational contributions
 
 ---
 
-### 🏆 Awards & Achievements
+### Awards & Achievements
 
-- 🥇 **Best Interactive Demo** & **Encouragement Award**  
+🏆 **Best Interactive Demo** & **Encouragement Award**  
   *“Picture Hunter II” - Real-time dialog game using multimodal LLM*  
   *IPSJ EC Symposium 2024*
 
-- 🏅 **Best Presentation Award**  
+🏆 **Best Presentation Award**  
   *Lateral-AeroText – Transformer-based air-handwriting recognition system*  
   *IEICE IN Research Conference*
 
 ---
 
-### 🧰 Tech Stack
+### Tech Stack
 
 #### Languages & Frameworks  
 Python / JavaScript / React / PHP / Dart / C / C++ / Java / R / C# / Flutter / Firebase / HTML / CSS
@@ -37,7 +36,7 @@ OpenAI API (GPT/Embedding) / Azure OCR / Google Vision API / GCP / Firebase / Me
 
 ---
 
-### 📌 Featured Projects
+### Featured Projects
 
 #### 🔗 [Picture Hunter II](https://kame-tech-lab.web.app/project-detail?id=picture-hunter-2)  
 > Developed an award-winning real-time game that generates monsters from real-world photos using multimodal LLMs.  
@@ -49,21 +48,19 @@ OpenAI API (GPT/Embedding) / Azure OCR / Google Vision API / GCP / Firebase / Me
 #### 🔗 [Deep Stream App](https://deep-stream-ksc.web.app/)  
 > A management app for a 300-person music club with real-time scheduling and notification features.
 
-#### 🔗 [Warranty OCR API (Internal)]  
+#### 🔗 [Warranty OCR API]  
 > An OCR + GPT-based API to automate the product warranty approval workflow.
-
-(👉 See pinned repositories for details!)
 
 ---
 
-### 💼 Internship & Work Experience
+### Internship & Work Experience
 
 **Heartland IT Innovation Inc.**  
 > 2 years as AI Developer Intern – built OCR+LLM powered systems and full-stack web apps for real-world clients.
 
 ---
 
-### 🚀 Career Interests
+### Career Interests
 
 Currently seeking:
 - AI/LLM research engineer internships
@@ -72,7 +69,7 @@ Currently seeking:
 
 ---
 
-### 📫 Contact Me
+### Contact Me
 
 - Email: yudainakamura.edu@gmail.com  
 - Twitter: [@kame_research](https://twitter.com/kame_research)  
