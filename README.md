@@ -1,7 +1,5 @@
-### 👋 Hi, I'm Yudai Nakamura | 中村 裕大
-
-🔍 Bridging advanced AI research with real-world impact through hands-on system development.
-
+### Hi, I'm Yudai Nakamura | 中村 裕大
+Bridging advanced AI research with real-world impact through hands-on system development.
 
 ---
 
