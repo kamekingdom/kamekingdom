@@ -44,7 +44,7 @@ OpenAI API (GPT/Embedding) / Azure OCR / Google Vision API / GCP / Firebase / Me
 #### 🔗 [Deep Stream App](https://deep-stream-ksc.web.app/)  
 > A management app for a 300-person music club with real-time scheduling and notification features.
 
-#### 🔗 [Warranty OCR API]  
+#### 🔗 [Warranty OCR API]()
 > An OCR + GPT-based API to automate the product warranty approval workflow.
 
 ---
@@ -53,20 +53,3 @@ OpenAI API (GPT/Embedding) / Azure OCR / Google Vision API / GCP / Firebase / Me
 
 **Heartland IT Innovation Inc.**  
 > 2 years as AI Developer Intern – built OCR+LLM powered systems and full-stack web apps for real-world clients.
-
----
-
-### Career Interests
-
-Currently seeking:
-- AI/LLM research engineer internships
-- Front-end / full-stack developer roles
-- Innovative teams tackling social challenges with technology
-
----
-
-### Contact Me
-
-- Email: yudainakamura.edu@gmail.com  
-- Twitter: [@kame_research](https://twitter.com/kame_research)  
-- Website: [https://kame-tech-lab.web.app](https://kame-tech-lab.web.app)
