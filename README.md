@@ -25,10 +25,8 @@ Bridging advanced AI research with real-world impact through hands-on system dev
 ---
 
 ### Tech Stack
-
-#### Languages & Frameworks  
+#### Languages & Frameworks
 Python / JavaScript / React / PHP / Dart / C / C++ / Java / R / C# / Flutter / Firebase / HTML / CSS
-
 #### AI & Cloud  
 OpenAI API (GPT/Embedding) / Azure OCR / Google Vision API / GCP / Firebase / MediaPipe / Docker / Max8 / Linux (Ubuntu)
 
