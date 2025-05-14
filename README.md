@@ -29,27 +29,3 @@ Bridging advanced AI research with real-world impact through hands-on system dev
 Python / JavaScript / React / PHP / Dart / C / C++ / Java / R / C# / Flutter / Firebase / HTML / CSS
 #### AI & Cloud  
 OpenAI API (GPT/Embedding) / Azure OCR / Google Vision API / GCP / Firebase / MediaPipe / Docker / Max8 / Linux (Ubuntu)
-
----
-
-### Featured Projects
-
-#### 🔗 [Picture Hunter II](https://kame-tech-lab.web.app/project-detail?id=picture-hunter-2)  
-> Developed an award-winning real-time game that generates monsters from real-world photos using multimodal LLMs.  
-> Presented at EC Symposium and received Best Interactive Demo Award.
-
-#### 🔗 [Overwriting AeroText](https://www.youtube.com/watch?v=B8NKtk1s5Lc)  
-> A novel character recognition interface using Transformer-based trajectory analysis.
-
-#### 🔗 [Deep Stream App](https://deep-stream-ksc.web.app/)  
-> A management app for a 300-person music club with real-time scheduling and notification features.
-
-#### 🔗 [Warranty OCR API]()
-> An OCR + GPT-based API to automate the product warranty approval workflow.
-
----
-
-### Internship & Work Experience
-
-**Heartland IT Innovation Inc.**  
-> 2 years as AI Developer Intern – built OCR+LLM powered systems and full-stack web apps for real-world clients.
