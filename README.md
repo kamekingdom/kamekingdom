@@ -19,7 +19,7 @@ Bridging advanced AI research with real-world impact through hands-on system dev
   *IPSJ EC Symposium 2024*
 
 🏆 **Best Presentation Award**  
-  *Lateral-AeroText – Transformer-based air-handwriting recognition system*  
+  *Lateral-AeroText – air-handwriting recognition system*  
   *IEICE IN Research Conference*
 
 ---
