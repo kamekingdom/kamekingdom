@@ -29,6 +29,7 @@ Bridging advanced AI research with real-world impact through hands-on system dev
 ![Azure OCR](https://img.shields.io/badge/Azure%20OCR-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Google Vision](https://img.shields.io/badge/Google%20Vision-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-FF6F00?style=for-the-badge&logo=google&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 
 #### Cloud & DevOps
 ![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
