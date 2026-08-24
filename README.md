@@ -4,7 +4,7 @@ Bridging advanced AI research with real-world impact through hands-on system dev
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/kamekingdom/kamekingdom/output/pacman-contributions.svg" alt="Pac-Man eating Yudai's GitHub contributions" width="100%" />
+  <img src="https://raw.githubusercontent.com/kamekingdom/kamekingdom/refs/heads/output/pacman-contributions.svg" alt="Pac-Man eating Yudai's GitHub contributions" width="100%" />
 </div>
 
 ---
