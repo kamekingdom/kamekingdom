@@ -1,15 +1,22 @@
-name: Generate turtle contribution animation
+name: Generate Pac-Man contribution animation
 
 on:
   schedule:
     - cron: "17 3 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+      - scripts/generate_pacman_contributions.py
+      - .github/workflows/pacman-contributions.yml
 
 permissions:
   contents: write
 
 concurrency:
-  group: turtle-contributions
+  group: pacman-contributions
   cancel-in-progress: true
 
 jobs:
@@ -23,7 +30,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
-        run: python3 scripts/generate_turtle_contributions.py
+        run: python3 scripts/generate_pacman_contributions.py
 
       - name: Publish SVG to the output branch
         uses: peaceiris/actions-gh-pages@v4
