@@ -3,12 +3,6 @@ Bridging advanced AI research with real-world impact through hands-on system dev
 
 ---
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/kamekingdom/kamekingdom/refs/heads/output/pacman-contributions.svg" alt="Pac-Man eating Yudai's GitHub contributions" width="100%" />
-</div>
-
----
-
 <!-- ─── Tech Stack ─────────────────────────────────────────── -->
 ### 🛠 Tech Stack
 
@@ -49,3 +43,11 @@ Bridging advanced AI research with real-world impact through hands-on system dev
 ![Max 8](https://img.shields.io/badge/Max%208-000000?style=for-the-badge&logo=cycling74&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 <!-- ────────────────────────────────────────────────────────── -->
+
+---
+
+### Contributions
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/kamekingdom/kamekingdom/refs/heads/output/pacman-contributions.svg" alt="Pac-Man eating Yudai's GitHub contributions" width="100%" />
+</div>
