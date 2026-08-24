@@ -1,0 +1,9 @@
+{
+  "name": "kamekingdom-profile-pacman",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "node src/generate.mjs --demo --out dist",
+    "build": "node src/generate.mjs --out dist"
+  }
+}

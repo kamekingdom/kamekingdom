@@ -9,7 +9,8 @@ on:
       - main
     paths:
       - README.md
-      - scripts/generate_pacman_contributions.py
+      - src/**
+      - package.json
       - .github/workflows/pacman-contributions.yml
 
 permissions:
@@ -29,8 +30,8 @@ jobs:
       - name: Generate animated SVG
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
-        run: python3 scripts/generate_pacman_contributions.py
+          GH_USERNAME: ${{ github.repository_owner }}
+        run: node src/generate.mjs --out dist
 
       - name: Publish SVG to the output branch
         uses: peaceiris/actions-gh-pages@v4
