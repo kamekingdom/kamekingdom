@@ -3,6 +3,12 @@ Bridging advanced AI research with real-world impact through hands-on system dev
 
 ---
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/kamekingdom/kamekingdom/output/turtle-contributions.svg" alt="A turtle eating Yudai's GitHub contributions, then falling asleep" width="100%" />
+</div>
+
+---
+
 <!-- ─── Tech Stack ─────────────────────────────────────────── -->
 ### 🛠 Tech Stack
 
@@ -43,4 +49,3 @@ Bridging advanced AI research with real-world impact through hands-on system dev
 ![Max 8](https://img.shields.io/badge/Max%208-000000?style=for-the-badge&logo=cycling74&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 <!-- ────────────────────────────────────────────────────────── -->
-
