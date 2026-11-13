@@ -1,0 +1,1958 @@
+{
+  "categories": [
+    {
+      "id": "group-1",
+      "name": "プログラミング言語",
+      "items": [
+        {
+          "name": "Python",
+          "badgeUrl": "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white",
+          "id": "python"
+        },
+        {
+          "name": "C",
+          "badgeUrl": "https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white",
+          "id": "c"
+        },
+        {
+          "name": "C++",
+          "badgeUrl": "https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white",
+          "id": "cpp"
+        },
+        {
+          "name": "Java",
+          "badgeUrl": "https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white",
+          "id": "java"
+        },
+        {
+          "name": "JavaScript",
+          "badgeUrl": "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black",
+          "id": "javascript"
+        },
+        {
+          "name": "Dart",
+          "badgeUrl": "https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white",
+          "id": "dart"
+        },
+        {
+          "name": "R",
+          "badgeUrl": "https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white",
+          "id": "r"
+        },
+        {
+          "name": "C#",
+          "badgeUrl": "https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white",
+          "id": "csharp"
+        },
+        {
+          "name": "Swift",
+          "badgeUrl": "https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white",
+          "id": "swift"
+        }
+      ]
+    },
+    {
+      "id": "group-2",
+      "name": "Web・モバイルUI",
+      "items": [
+        {
+          "name": "React",
+          "badgeUrl": "https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black",
+          "id": "react"
+        },
+        {
+          "name": "Flutter",
+          "badgeUrl": "https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white",
+          "id": "flutter"
+        },
+        {
+          "name": "PHP",
+          "badgeUrl": "https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white",
+          "id": "php"
+        },
+        {
+          "name": "HTML5",
+          "badgeUrl": "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white",
+          "id": "html5"
+        },
+        {
+          "name": "CSS3",
+          "badgeUrl": "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white",
+          "id": "css3"
+        }
+      ]
+    },
+    {
+      "id": "group-3",
+      "name": "AI・機械学習・画像認識",
+      "items": [
+        {
+          "name": "OpenAI",
+          "badgeUrl": "https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white",
+          "id": "openai"
+        },
+        {
+          "name": "Azure OCR",
+          "badgeUrl": "https://img.shields.io/badge/Azure%20OCR-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white",
+          "id": "azure-ocr"
+        },
+        {
+          "name": "Google Vision",
+          "badgeUrl": "https://img.shields.io/badge/Google%20Vision-4285F4?style=for-the-badge&logo=google&logoColor=white",
+          "id": "google-vision"
+        },
+        {
+          "name": "MediaPipe",
+          "badgeUrl": "https://img.shields.io/badge/MediaPipe-FF6F00?style=for-the-badge&logo=google&logoColor=white",
+          "id": "mediapipe"
+        },
+        {
+          "name": "TensorFlow",
+          "badgeUrl": "https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white",
+          "id": "tensorflow"
+        },
+        {
+          "name": "scikit-learn",
+          "badgeUrl": "https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white",
+          "id": "scikit-learn"
+        }
+      ]
+    },
+    {
+      "id": "group-4",
+      "name": "クラウド・コンテナ",
+      "items": [
+        {
+          "name": "Google Cloud",
+          "badgeUrl": "https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white",
+          "id": "gcp"
+        },
+        {
+          "name": "Firebase",
+          "badgeUrl": "https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black",
+          "id": "firebase"
+        },
+        {
+          "name": "AWS",
+          "badgeUrl": "https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white",
+          "id": "aws"
+        },
+        {
+          "name": "Docker",
+          "badgeUrl": "https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white",
+          "id": "docker"
+        },
+        {
+          "name": "Ubuntu",
+          "badgeUrl": "https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white",
+          "id": "ubuntu"
+        }
+      ]
+    },
+    {
+      "id": "group-5",
+      "name": "OS・制作環境",
+      "items": [
+        {
+          "name": "Max 8",
+          "badgeUrl": "https://img.shields.io/badge/Max%208-000000?style=for-the-badge&logo=cycling74&logoColor=white",
+          "id": "max-8"
+        },
+        {
+          "name": "Linux",
+          "badgeUrl": "https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black",
+          "id": "linux"
+        }
+      ]
+    },
+    {
+      "id": "group-6",
+      "name": "プログラミング言語の追加候補",
+      "items": [
+        {
+          "id": "typescript",
+          "name": "TypeScript",
+          "color": "4B5563"
+        },
+        {
+          "id": "kotlin",
+          "name": "Kotlin",
+          "color": "4B5563"
+        },
+        {
+          "id": "go",
+          "name": "Go",
+          "color": "4B5563"
+        },
+        {
+          "id": "rust",
+          "name": "Rust",
+          "color": "4B5563"
+        },
+        {
+          "id": "ruby",
+          "name": "Ruby",
+          "color": "4B5563"
+        },
+        {
+          "id": "sql",
+          "name": "SQL",
+          "color": "4B5563"
+        },
+        {
+          "id": "bash",
+          "name": "Bash",
+          "color": "4B5563"
+        },
+        {
+          "id": "powershell",
+          "name": "PowerShell",
+          "color": "4B5563"
+        },
+        {
+          "id": "objective-c",
+          "name": "Objective-C",
+          "color": "4B5563"
+        },
+        {
+          "id": "lua",
+          "name": "Lua",
+          "color": "4B5563"
+        },
+        {
+          "id": "julia",
+          "name": "Julia",
+          "color": "4B5563"
+        },
+        {
+          "id": "matlab",
+          "name": "MATLAB",
+          "color": "4B5563"
+        },
+        {
+          "id": "scala",
+          "name": "Scala",
+          "color": "4B5563"
+        },
+        {
+          "id": "perl",
+          "name": "Perl",
+          "color": "4B5563"
+        },
+        {
+          "id": "haskell",
+          "name": "Haskell",
+          "color": "4B5563"
+        },
+        {
+          "id": "elixir",
+          "name": "Elixir",
+          "color": "4B5563"
+        },
+        {
+          "id": "clojure",
+          "name": "Clojure",
+          "color": "4B5563"
+        },
+        {
+          "id": "groovy",
+          "name": "Groovy",
+          "color": "4B5563"
+        },
+        {
+          "id": "assembly",
+          "name": "Assembly",
+          "color": "4B5563"
+        },
+        {
+          "id": "vba",
+          "name": "VBA",
+          "color": "4B5563"
+        }
+      ]
+    },
+    {
+      "id": "group-7",
+      "name": "フロントエンド",
+      "items": [
+        {
+          "id": "next-js",
+          "name": "Next.js",
+          "color": "4B5563"
+        },
+        {
+          "id": "vue-js",
+          "name": "Vue.js",
+          "color": "4B5563"
+        },
+        {
+          "id": "nuxt",
+          "name": "Nuxt",
+          "color": "4B5563"
+        },
+        {
+          "id": "svelte",
+          "name": "Svelte",
+          "color": "4B5563"
+        },
+        {
+          "id": "sveltekit",
+          "name": "SvelteKit",
+          "color": "4B5563"
+        },
+        {
+          "id": "astro",
+          "name": "Astro",
+          "color": "4B5563"
+        },
+        {
+          "id": "angular",
+          "name": "Angular",
+          "color": "4B5563"
+        },
+        {
+          "id": "vite",
+          "name": "Vite",
+          "color": "4B5563"
+        },
+        {
+          "id": "webpack",
+          "name": "Webpack",
+          "color": "4B5563"
+        },
+        {
+          "id": "tailwind-css",
+          "name": "Tailwind CSS",
+          "color": "4B5563"
+        },
+        {
+          "id": "bootstrap",
+          "name": "Bootstrap",
+          "color": "4B5563"
+        },
+        {
+          "id": "sass",
+          "name": "Sass",
+          "color": "4B5563"
+        },
+        {
+          "id": "css-modules",
+          "name": "CSS Modules",
+          "color": "4B5563"
+        },
+        {
+          "id": "jquery",
+          "name": "jQuery",
+          "color": "4B5563"
+        },
+        {
+          "id": "htmx",
+          "name": "HTMX",
+          "color": "4B5563"
+        },
+        {
+          "id": "web-components",
+          "name": "Web Components",
+          "color": "4B5563"
+        },
+        {
+          "id": "three-js",
+          "name": "Three.js",
+          "color": "4B5563"
+        },
+        {
+          "id": "d3-js",
+          "name": "D3.js",
+          "color": "4B5563"
+        },
+        {
+          "id": "redux",
+          "name": "Redux",
+          "color": "4B5563"
+        },
+        {
+          "id": "zustand",
+          "name": "Zustand",
+          "color": "4B5563"
+        },
+        {
+          "id": "tanstack-query",
+          "name": "TanStack Query",
+          "color": "4B5563"
+        },
+        {
+          "id": "storybook",
+          "name": "Storybook",
+          "color": "4B5563"
+        }
+      ]
+    },
+    {
+      "id": "group-8",
+      "name": "モバイル・デスクトップ",
+      "items": [
+        {
+          "id": "swiftui",
+          "name": "SwiftUI",
+          "color": "4B5563"
+        },
+        {
+          "id": "uikit",
+          "name": "UIKit",
+          "color": "4B5563"
+        },
+        {
+          "id": "combine",
+          "name": "Combine",
+          "color": "4B5563"
+        },
+        {
+          "id": "swiftdata",
+          "name": "SwiftData",
+          "color": "4B5563"
+        },
+        {
+          "id": "core-data",
+          "name": "Core Data",
+          "color": "4B5563"
+        },
+        {
+          "id": "core-ml",
+          "name": "Core ML",
+          "color": "4B5563"
+        },
+        {
+          "id": "arkit",
+          "name": "ARKit",
+          "color": "4B5563"
+        },
+        {
+          "id": "avfoundation",
+          "name": "AVFoundation",
+          "color": "4B5563"
+        },
+        {
+          "id": "vision-framework",
+          "name": "Vision Framework",
+          "color": "4B5563"
+        },
+        {
+          "id": "widgetkit",
+          "name": "WidgetKit",
+          "color": "4B5563"
+        },
+        {
+          "id": "app-intents",
+          "name": "App Intents",
+          "color": "4B5563"
+        },
+        {
+          "id": "cloudkit",
+          "name": "CloudKit",
+          "color": "4B5563"
+        },
+        {
+          "id": "jetpack-compose",
+          "name": "Jetpack Compose",
+          "color": "4B5563"
+        },
+        {
+          "id": "android-sdk",
+          "name": "Android SDK",
+          "color": "4B5563"
+        },
+        {
+          "id": "react-native",
+          "name": "React Native",
+          "color": "4B5563"
+        },
+        {
+          "id": "expo",
+          "name": "Expo",
+          "color": "4B5563"
+        },
+        {
+          "id": "riverpod",
+          "name": "Riverpod",
+          "color": "4B5563"
+        },
+        {
+          "id": "bloc",
+          "name": "Bloc",
+          "color": "4B5563"
+        },
+        {
+          "id": "electron",
+          "name": "Electron",
+          "color": "4B5563"
+        },
+        {
+          "id": "tauri",
+          "name": "Tauri",
+          "color": "4B5563"
+        },
+        {
+          "id": "net-maui",
+          "name": ".NET MAUI",
+          "color": "4B5563"
+        },
+        {
+          "id": "qt",
+          "name": "Qt",
+          "color": "4B5563"
+        }
+      ]
+    },
+    {
+      "id": "group-9",
+      "name": "バックエンド・API",
+      "items": [
+        {
+          "id": "node-js",
+          "name": "Node.js",
+          "color": "4B5563"
+        },
+        {
+          "id": "deno",
+          "name": "Deno",
+          "color": "4B5563"
+        },
+        {
+          "id": "bun",
+          "name": "Bun",
+          "color": "4B5563"
+        },
+        {
+          "id": "express",
+          "name": "Express",
+          "color": "4B5563"
+        },
+        {
+          "id": "fastify",
+          "name": "Fastify",
+          "color": "4B5563"
+        },
+        {
+          "id": "nestjs",
+          "name": "NestJS",
+          "color": "4B5563"
+        },
+        {
+          "id": "hono",
+          "name": "Hono",
+          "color": "4B5563"
+        },
+        {
+          "id": "fastapi",
+          "name": "FastAPI",
+          "color": "4B5563"
+        },
+        {
+          "id": "flask",
+          "name": "Flask",
+          "color": "4B5563"
+        },
+        {
+          "id": "django",
+          "name": "Django",
+          "color": "4B5563"
+        },
+        {
+          "id": "spring-boot",
+          "name": "Spring Boot",
+          "color": "4B5563"
+        },
+        {
+          "id": "laravel",
+          "name": "Laravel",
+          "color": "4B5563"
+        },
+        {
+          "id": "ruby-on-rails",
+          "name": "Ruby on Rails",
+          "color": "4B5563"
+        },
+        {
+          "id": "asp-net-core",
+          "name": "ASP.NET Core",
+          "color": "4B5563"
+        },
+        {
+          "id": "gin",
+          "name": "Gin",
+          "color": "4B5563"
+        },
+        {
+          "id": "phoenix",
+          "name": "Phoenix",
+          "color": "4B5563"
+        },
+        {
+          "id": "rest-api",
+          "name": "REST API",
+          "color": "4B5563"
+        },
+        {
+          "id": "graphql",
+          "name": "GraphQL",
+          "color": "4B5563"
+        },
+        {
+          "id": "grpc",
+          "name": "gRPC",
+          "color": "4B5563"
+        },
+        {
+          "id": "websocket",
+          "name": "WebSocket",
+          "color": "4B5563"
+        },
+        {
+          "id": "oauth-2-0",
+          "name": "OAuth 2.0",
+          "color": "4B5563"
+        },
+        {
+          "id": "openid-connect",
+          "name": "OpenID Connect",
+          "color": "4B5563"
+        }
+      ]
+    },
+    {
+      "id": "group-10",
+      "name": "AI・LLMの追加候補",
+      "items": [
+        {
+          "id": "pytorch",
+          "name": "PyTorch",
+          "color": "4B5563"
+        },
+        {
+          "id": "keras",
+          "name": "Keras",
+          "color": "4B5563"
+        },
+        {
+          "id": "jax",
+          "name": "JAX",
+          "color": "4B5563"
+        },
+        {
+          "id": "hugging-face",
+          "name": "Hugging Face",
+          "color": "4B5563"
+        },
+        {
+          "id": "transformers",
+          "name": "Transformers",
+          "color": "4B5563"
+        },
+        {
+          "id": "langchain",
+          "name": "LangChain",
+          "color": "4B5563"
+        },
+        {
+          "id": "langgraph",
+          "name": "LangGraph",
+          "color": "4B5563"
+        },
+        {
+          "id": "llamaindex",
+          "name": "LlamaIndex",
+          "color": "4B5563"
+        },
+        {
+          "id": "ollama",
+          "name": "Ollama",
+          "color": "4B5563"
+        },
+        {
+          "id": "llama-cpp",
+          "name": "llama.cpp",
+          "color": "4B5563"
+        },
+        {
+          "id": "vllm",
+          "name": "vLLM",
+          "color": "4B5563"
+        },
+        {
+          "id": "gemini-api",
+          "name": "Gemini API",
+          "color": "4B5563"
+        },
+        {
+          "id": "claude-api",
+          "name": "Claude API",
+          "color": "4B5563"
+        },
+        {
+          "id": "whisper",
+          "name": "Whisper",
+          "color": "4B5563"
+        },
+        {
+          "id": "opencv",
+          "name": "OpenCV",
+          "color": "4B5563"
+        },
+        {
+          "id": "ultralytics-yolo",
+          "name": "Ultralytics YOLO",
+          "color": "4B5563"
+        },
+        {
+          "id": "onnx",
+          "name": "ONNX",
+          "color": "4B5563"
+        },
+        {
+          "id": "core-ml-tools",
+          "name": "Core ML Tools",
+          "color": "4B5563"
+        },
+        {
+          "id": "mlflow",
+          "name": "MLflow",
+          "color": "4B5563"
+        },
+        {
+          "id": "weights-biases",
+          "name": "Weights & Biases",
+          "color": "4B5563"
+        },
+        {
+          "id": "tensorboard",
+          "name": "TensorBoard",
+          "color": "4B5563"
+        },
+        {
+          "id": "xgboost",
+          "name": "XGBoost",
+          "color": "4B5563"
+        },
+        {
+          "id": "lightgbm",
+          "name": "LightGBM",
+          "color": "4B5563"
+        },
+        {
+          "id": "catboost",
+          "name": "CatBoost",
+          "color": "4B5563"
+        },
+        {
+          "id": "optuna",
+          "name": "Optuna",
+          "color": "4B5563"
+        },
+        {
+          "id": "shap",
+          "name": "SHAP",
+          "color": "4B5563"
+        },
+        {
+          "id": "openai-agents-sdk",
+          "name": "OpenAI Agents SDK",
+          "color": "4B5563"
+        },
+        {
+          "id": "mcp",
+          "name": "MCP",
+          "color": "4B5563"
+        }
+      ]
+    },
+    {
+      "id": "group-11",
+      "name": "データ分析・研究",
+      "items": [
+        {
+          "id": "numpy",
+          "name": "NumPy",
+          "color": "4B5563"
+        },
+        {
+          "id": "pandas",
+          "name": "pandas",
+          "color": "4B5563"
+        },
+        {
+          "id": "polars",
+          "name": "Polars",
+          "color": "4B5563"
+        },
+        {
+          "id": "scipy",
+          "name": "SciPy",
+          "color": "4B5563"
+        },
+        {
+          "id": "matplotlib",
+          "name": "Matplotlib",
+          "color": "4B5563"
+        },
+        {
+          "id": "seaborn",
+          "name": "Seaborn",
+          "color": "4B5563"
+        },
+        {
+          "id": "plotly",
+          "name": "Plotly",
+          "color": "4B5563"
+        },
+        {
+          "id": "jupyter",
+          "name": "Jupyter",
+          "color": "4B5563"
+        },
+        {
+          "id": "google-colab",
+          "name": "Google Colab",
+          "color": "4B5563"
+        },
+        {
+          "id": "rstudio",
+          "name": "RStudio",
+          "color": "4B5563"
+        },
+        {
+          "id": "tidyverse",
+          "name": "tidyverse",
+          "color": "4B5563"
+        },
+        {
+          "id": "ggplot2",
+          "name": "ggplot2",
+          "color": "4B5563"
+        },
+        {
+          "id": "dplyr",
+          "name": "dplyr",
+          "color": "4B5563"
+        },
+        {
+          "id": "shiny",
+          "name": "Shiny",
+          "color": "4B5563"
+        },
+        {
+          "id": "statsmodels",
+          "name": "statsmodels",
+          "color": "4B5563"
+        },
+        {
+          "id": "pymc",
+          "name": "PyMC",
+          "color": "4B5563"
+        },
+        {
+          "id": "stan",
+          "name": "Stan",
+          "color": "4B5563"
+        },
+        {
+          "id": "spss",
+          "name": "SPSS",
+          "color": "4B5563"
+        },
+        {
+          "id": "scikit-image",
+          "name": "scikit-image",
+          "color": "4B5563"
+        },
+        {
+          "id": "librosa",
+          "name": "librosa",
+          "color": "4B5563"
+        },
+        {
+          "id": "mne-python",
+          "name": "MNE-Python",
+          "color": "4B5563"
+        },
+        {
+          "id": "ffmpeg",
+          "name": "FFmpeg",
+          "color": "4B5563"
+        },
+        {
+          "id": "gstreamer",
+          "name": "GStreamer",
+          "color": "4B5563"
+        },
+        {
+          "id": "apache-spark",
+          "name": "Apache Spark",
+          "color": "4B5563"
+        },
+        {
+          "id": "duckdb",
+          "name": "DuckDB",
+          "color": "4B5563"
+        },
+        {
+          "id": "apache-airflow",
+          "name": "Apache Airflow",
+          "color": "4B5563"
+        },
+        {
+          "id": "dbt",
+          "name": "dbt",
+          "color": "4B5563"
+        }
+      ]
+    },
+    {
+      "id": "group-12",
+      "name": "データベース・ストレージ",
+      "items": [
+        {
+          "id": "postgresql",
+          "name": "PostgreSQL",
+          "color": "4B5563"
+        },
+        {
+          "id": "mysql",
+          "name": "MySQL",
+          "color": "4B5563"
+        },
+        {
+          "id": "mariadb",
+          "name": "MariaDB",
+          "color": "4B5563"
+        },
+        {
+          "id": "sqlite",
+          "name": "SQLite",
+          "color": "4B5563"
+        },
+        {
+          "id": "mongodb",
+          "name": "MongoDB",
+          "color": "4B5563"
+        },
+        {
+          "id": "redis",
+          "name": "Redis",
+          "color": "4B5563"
+        },
+        {
+          "id": "firestore",
+          "name": "Firestore",
+          "color": "4B5563"
+        },
+        {
+          "id": "realtime-database",
+          "name": "Realtime Database",
+          "color": "4B5563"
+        },
+        {
+          "id": "dynamodb",
+          "name": "DynamoDB",
+          "color": "4B5563"
+        },
+        {
+          "id": "amazon-rds",
+          "name": "Amazon RDS",
+          "color": "4B5563"
+        },
+        {
+          "id": "supabase",
+          "name": "Supabase",
+          "color": "4B5563"
+        },
+        {
+          "id": "appwrite",
+          "name": "Appwrite",
+          "color": "4B5563"
+        },
+        {
+          "id": "prisma",
+          "name": "Prisma",
+          "color": "4B5563"
+        },
+        {
+          "id": "drizzle-orm",
+          "name": "Drizzle ORM",
+          "color": "4B5563"
+        },
+        {
+          "id": "sqlalchemy",
+          "name": "SQLAlchemy",
+          "color": "4B5563"
+        },
+        {
+          "id": "typeorm",
+          "name": "TypeORM",
+          "color": "4B5563"
+        },
+        {
+          "id": "realm",
+          "name": "Realm",
+          "color": "4B5563"
+        },
+        {
+          "id": "elasticsearch",
+          "name": "Elasticsearch",
+          "color": "4B5563"
+        },
+        {
+          "id": "opensearch",
+          "name": "OpenSearch",
+          "color": "4B5563"
+        },
+        {
+          "id": "bigquery",
+          "name": "BigQuery",
+          "color": "4B5563"
+        },
+        {
+          "id": "snowflake",
+          "name": "Snowflake",
+          "color": "4B5563"
+        },
+        {
+          "id": "chroma",
+          "name": "Chroma",
+          "color": "4B5563"
+        },
+        {
+          "id": "qdrant",
+          "name": "Qdrant",
+          "color": "4B5563"
+        },
+        {
+          "id": "pinecone",
+          "name": "Pinecone",
+          "color": "4B5563"
+        }
+      ]
+    },
+    {
+      "id": "group-13",
+      "name": "クラウドサービスの追加候補",
+      "items": [
+        {
+          "id": "microsoft-azure",
+          "name": "Microsoft Azure",
+          "color": "4B5563"
+        },
+        {
+          "id": "vercel",
+          "name": "Vercel",
+          "color": "4B5563"
+        },
+        {
+          "id": "netlify",
+          "name": "Netlify",
+          "color": "4B5563"
+        },
+        {
+          "id": "cloudflare",
+          "name": "Cloudflare",
+          "color": "4B5563"
+        },
+        {
+          "id": "cloudflare-workers",
+          "name": "Cloudflare Workers",
+          "color": "4B5563"
+        },
+        {
+          "id": "cloudflare-r2",
+          "name": "Cloudflare R2",
+          "color": "4B5563"
+        },
+        {
+          "id": "render",
+          "name": "Render",
+          "color": "4B5563"
+        },
+        {
+          "id": "fly-io",
+          "name": "Fly.io",
+          "color": "4B5563"
+        },
+        {
+          "id": "heroku",
+          "name": "Heroku",
+          "color": "4B5563"
+        },
+        {
+          "id": "aws-amplify",
+          "name": "AWS Amplify",
+          "color": "4B5563"
+        },
+        {
+          "id": "amazon-ec2",
+          "name": "Amazon EC2",
+          "color": "4B5563"
+        },
+        {
+          "id": "amazon-s3",
+          "name": "Amazon S3",
+          "color": "4B5563"
+        },
+        {
+          "id": "aws-lambda",
+          "name": "AWS Lambda",
+          "color": "4B5563"
+        },
+        {
+          "id": "amazon-api-gateway",
+          "name": "Amazon API Gateway",
+          "color": "4B5563"
+        },
+        {
+          "id": "amazon-cloudfront",
+          "name": "Amazon CloudFront",
+          "color": "4B5563"
+        },
+        {
+          "id": "amazon-cognito",
+          "name": "Amazon Cognito",
+          "color": "4B5563"
+        },
+        {
+          "id": "amazon-ecs",
+          "name": "Amazon ECS",
+          "color": "4B5563"
+        },
+        {
+          "id": "aws-fargate",
+          "name": "AWS Fargate",
+          "color": "4B5563"
+        },
+        {
+          "id": "aws-step-functions",
+          "name": "AWS Step Functions",
+          "color": "4B5563"
+        },
+        {
+          "id": "amazon-eventbridge",
+          "name": "Amazon EventBridge",
+          "color": "4B5563"
+        },
+        {
+          "id": "amazon-sqs",
+          "name": "Amazon SQS",
+          "color": "4B5563"
+        },
+        {
+          "id": "amazon-sns",
+          "name": "Amazon SNS",
+          "color": "4B5563"
+        },
+        {
+          "id": "aws-iam",
+          "name": "AWS IAM",
+          "color": "4B5563"
+        },
+        {
+          "id": "amazon-vpc",
+          "name": "Amazon VPC",
+          "color": "4B5563"
+        },
+        {
+          "id": "cloud-run",
+          "name": "Cloud Run",
+          "color": "4B5563"
+        },
+        {
+          "id": "cloud-functions",
+          "name": "Cloud Functions",
+          "color": "4B5563"
+        },
+        {
+          "id": "google-cloud-storage",
+          "name": "Google Cloud Storage",
+          "color": "4B5563"
+        },
+        {
+          "id": "google-compute-engine",
+          "name": "Google Compute Engine",
+          "color": "4B5563"
+        },
+        {
+          "id": "firebase-hosting",
+          "name": "Firebase Hosting",
+          "color": "4B5563"
+        },
+        {
+          "id": "firebase-authentication",
+          "name": "Firebase Authentication",
+          "color": "4B5563"
+        },
+        {
+          "id": "firebase-app-check",
+          "name": "Firebase App Check",
+          "color": "4B5563"
+        },
+        {
+          "id": "firebase-cloud-messaging",
+          "name": "Firebase Cloud Messaging",
+          "color": "4B5563"
+        }
+      ]
+    },
+    {
+      "id": "group-14",
+      "name": "開発環境・構成管理・CI/CD",
+      "items": [
+        {
+          "id": "git",
+          "name": "Git",
+          "color": "4B5563"
+        },
+        {
+          "id": "github",
+          "name": "GitHub",
+          "color": "4B5563"
+        },
+        {
+          "id": "github-actions",
+          "name": "GitHub Actions",
+          "color": "4B5563"
+        },
+        {
+          "id": "gitlab-ci",
+          "name": "GitLab CI",
+          "color": "4B5563"
+        },
+        {
+          "id": "bitbucket",
+          "name": "Bitbucket",
+          "color": "4B5563"
+        },
+        {
+          "id": "jenkins",
+          "name": "Jenkins",
+          "color": "4B5563"
+        },
+        {
+          "id": "circleci",
+          "name": "CircleCI",
+          "color": "4B5563"
+        },
+        {
+          "id": "terraform",
+          "name": "Terraform",
+          "color": "4B5563"
+        },
+        {
+          "id": "opentofu",
+          "name": "OpenTofu",
+          "color": "4B5563"
+        },
+        {
+          "id": "aws-cdk",
+          "name": "AWS CDK",
+          "color": "4B5563"
+        },
+        {
+          "id": "aws-sam",
+          "name": "AWS SAM",
+          "color": "4B5563"
+        },
+        {
+          "id": "cloudformation",
+          "name": "CloudFormation",
+          "color": "4B5563"
+        },
+        {
+          "id": "ansible",
+          "name": "Ansible",
+          "color": "4B5563"
+        },
+        {
+          "id": "kubernetes",
+          "name": "Kubernetes",
+          "color": "4B5563"
+        },
+        {
+          "id": "helm",
+          "name": "Helm",
+          "color": "4B5563"
+        },
+        {
+          "id": "docker-compose",
+          "name": "Docker Compose",
+          "color": "4B5563"
+        },
+        {
+          "id": "podman",
+          "name": "Podman",
+          "color": "4B5563"
+        },
+        {
+          "id": "nginx",
+          "name": "Nginx",
+          "color": "4B5563"
+        },
+        {
+          "id": "apache-http-server",
+          "name": "Apache HTTP Server",
+          "color": "4B5563"
+        },
+        {
+          "id": "caddy",
+          "name": "Caddy",
+          "color": "4B5563"
+        },
+        {
+          "id": "npm",
+          "name": "npm",
+          "color": "4B5563"
+        },
+        {
+          "id": "pnpm",
+          "name": "pnpm",
+          "color": "4B5563"
+        },
+        {
+          "id": "yarn",
+          "name": "Yarn",
+          "color": "4B5563"
+        },
+        {
+          "id": "uv",
+          "name": "uv",
+          "color": "4B5563"
+        },
+        {
+          "id": "poetry",
+          "name": "Poetry",
+          "color": "4B5563"
+        },
+        {
+          "id": "pip",
+          "name": "pip",
+          "color": "4B5563"
+        },
+        {
+          "id": "conda",
+          "name": "Conda",
+          "color": "4B5563"
+        },
+        {
+          "id": "gradle",
+          "name": "Gradle",
+          "color": "4B5563"
+        },
+        {
+          "id": "maven",
+          "name": "Maven",
+          "color": "4B5563"
+        },
+        {
+          "id": "cmake",
+          "name": "CMake",
+          "color": "4B5563"
+        },
+        {
+          "id": "make",
+          "name": "Make",
+          "color": "4B5563"
+        },
+        {
+          "id": "bazel",
+          "name": "Bazel",
+          "color": "4B5563"
+        },
+        {
+          "id": "fastlane",
+          "name": "Fastlane",
+          "color": "4B5563"
+        },
+        {
+          "id": "testflight",
+          "name": "TestFlight",
+          "color": "4B5563"
+        },
+        {
+          "id": "app-store-connect",
+          "name": "App Store Connect",
+          "color": "4B5563"
+        }
+      ]
+    },
+    {
+      "id": "group-15",
+      "name": "テスト・品質・セキュリティ",
+      "items": [
+        {
+          "id": "pytest",
+          "name": "pytest",
+          "color": "4B5563"
+        },
+        {
+          "id": "unittest",
+          "name": "unittest",
+          "color": "4B5563"
+        },
+        {
+          "id": "node-js-test-runner",
+          "name": "Node.js Test Runner",
+          "color": "4B5563"
+        },
+        {
+          "id": "jest",
+          "name": "Jest",
+          "color": "4B5563"
+        },
+        {
+          "id": "vitest",
+          "name": "Vitest",
+          "color": "4B5563"
+        },
+        {
+          "id": "testing-library",
+          "name": "Testing Library",
+          "color": "4B5563"
+        },
+        {
+          "id": "playwright",
+          "name": "Playwright",
+          "color": "4B5563"
+        },
+        {
+          "id": "cypress",
+          "name": "Cypress",
+          "color": "4B5563"
+        },
+        {
+          "id": "selenium",
+          "name": "Selenium",
+          "color": "4B5563"
+        },
+        {
+          "id": "xctest",
+          "name": "XCTest",
+          "color": "4B5563"
+        },
+        {
+          "id": "swift-testing",
+          "name": "Swift Testing",
+          "color": "4B5563"
+        },
+        {
+          "id": "junit",
+          "name": "JUnit",
+          "color": "4B5563"
+        },
+        {
+          "id": "flutter-test",
+          "name": "Flutter Test",
+          "color": "4B5563"
+        },
+        {
+          "id": "dart-test",
+          "name": "Dart Test",
+          "color": "4B5563"
+        },
+        {
+          "id": "eslint",
+          "name": "ESLint",
+          "color": "4B5563"
+        },
+        {
+          "id": "prettier",
+          "name": "Prettier",
+          "color": "4B5563"
+        },
+        {
+          "id": "ruff",
+          "name": "Ruff",
+          "color": "4B5563"
+        },
+        {
+          "id": "black",
+          "name": "Black",
+          "color": "4B5563"
+        },
+        {
+          "id": "mypy",
+          "name": "mypy",
+          "color": "4B5563"
+        },
+        {
+          "id": "typescript-compiler",
+          "name": "TypeScript Compiler",
+          "color": "4B5563"
+        },
+        {
+          "id": "swiftlint",
+          "name": "SwiftLint",
+          "color": "4B5563"
+        },
+        {
+          "id": "sonarqube",
+          "name": "SonarQube",
+          "color": "4B5563"
+        },
+        {
+          "id": "codeql",
+          "name": "CodeQL",
+          "color": "4B5563"
+        },
+        {
+          "id": "dependabot",
+          "name": "Dependabot",
+          "color": "4B5563"
+        },
+        {
+          "id": "snyk",
+          "name": "Snyk",
+          "color": "4B5563"
+        },
+        {
+          "id": "owasp-zap",
+          "name": "OWASP ZAP",
+          "color": "4B5563"
+        },
+        {
+          "id": "burp-suite",
+          "name": "Burp Suite",
+          "color": "4B5563"
+        },
+        {
+          "id": "k6",
+          "name": "k6",
+          "color": "4B5563"
+        },
+        {
+          "id": "jmeter",
+          "name": "JMeter",
+          "color": "4B5563"
+        }
+      ]
+    },
+    {
+      "id": "group-16",
+      "name": "監視・運用・ネットワーク",
+      "items": [
+        {
+          "id": "amazon-cloudwatch",
+          "name": "Amazon CloudWatch",
+          "color": "4B5563"
+        },
+        {
+          "id": "google-cloud-logging",
+          "name": "Google Cloud Logging",
+          "color": "4B5563"
+        },
+        {
+          "id": "sentry",
+          "name": "Sentry",
+          "color": "4B5563"
+        },
+        {
+          "id": "firebase-crashlytics",
+          "name": "Firebase Crashlytics",
+          "color": "4B5563"
+        },
+        {
+          "id": "firebase-analytics",
+          "name": "Firebase Analytics",
+          "color": "4B5563"
+        },
+        {
+          "id": "google-analytics",
+          "name": "Google Analytics",
+          "color": "4B5563"
+        },
+        {
+          "id": "prometheus",
+          "name": "Prometheus",
+          "color": "4B5563"
+        },
+        {
+          "id": "grafana",
+          "name": "Grafana",
+          "color": "4B5563"
+        },
+        {
+          "id": "opentelemetry",
+          "name": "OpenTelemetry",
+          "color": "4B5563"
+        },
+        {
+          "id": "datadog",
+          "name": "Datadog",
+          "color": "4B5563"
+        },
+        {
+          "id": "new-relic",
+          "name": "New Relic",
+          "color": "4B5563"
+        },
+        {
+          "id": "uptime-kuma",
+          "name": "Uptime Kuma",
+          "color": "4B5563"
+        },
+        {
+          "id": "tailscale",
+          "name": "Tailscale",
+          "color": "4B5563"
+        },
+        {
+          "id": "wireguard",
+          "name": "WireGuard",
+          "color": "4B5563"
+        },
+        {
+          "id": "openvpn",
+          "name": "OpenVPN",
+          "color": "4B5563"
+        },
+        {
+          "id": "openssh",
+          "name": "OpenSSH",
+          "color": "4B5563"
+        },
+        {
+          "id": "wireshark",
+          "name": "Wireshark",
+          "color": "4B5563"
+        },
+        {
+          "id": "tcpdump",
+          "name": "tcpdump",
+          "color": "4B5563"
+        }
+      ]
+    },
+    {
+      "id": "group-17",
+      "name": "エディタ・設計・コラボレーション",
+      "items": [
+        {
+          "id": "visual-studio-code",
+          "name": "Visual Studio Code",
+          "color": "4B5563"
+        },
+        {
+          "id": "visual-studio",
+          "name": "Visual Studio",
+          "color": "4B5563"
+        },
+        {
+          "id": "xcode",
+          "name": "Xcode",
+          "color": "4B5563"
+        },
+        {
+          "id": "android-studio",
+          "name": "Android Studio",
+          "color": "4B5563"
+        },
+        {
+          "id": "intellij-idea",
+          "name": "IntelliJ IDEA",
+          "color": "4B5563"
+        },
+        {
+          "id": "pycharm",
+          "name": "PyCharm",
+          "color": "4B5563"
+        },
+        {
+          "id": "vim",
+          "name": "Vim",
+          "color": "4B5563"
+        },
+        {
+          "id": "neovim",
+          "name": "Neovim",
+          "color": "4B5563"
+        },
+        {
+          "id": "emacs",
+          "name": "Emacs",
+          "color": "4B5563"
+        },
+        {
+          "id": "figma",
+          "name": "Figma",
+          "color": "4B5563"
+        },
+        {
+          "id": "adobe-xd",
+          "name": "Adobe XD",
+          "color": "4B5563"
+        },
+        {
+          "id": "sketch",
+          "name": "Sketch",
+          "color": "4B5563"
+        },
+        {
+          "id": "draw-io",
+          "name": "draw.io",
+          "color": "4B5563"
+        },
+        {
+          "id": "mermaid",
+          "name": "Mermaid",
+          "color": "4B5563"
+        },
+        {
+          "id": "plantuml",
+          "name": "PlantUML",
+          "color": "4B5563"
+        },
+        {
+          "id": "postman",
+          "name": "Postman",
+          "color": "4B5563"
+        },
+        {
+          "id": "insomnia",
+          "name": "Insomnia",
+          "color": "4B5563"
+        },
+        {
+          "id": "bruno",
+          "name": "Bruno",
+          "color": "4B5563"
+        },
+        {
+          "id": "notion",
+          "name": "Notion",
+          "color": "4B5563"
+        },
+        {
+          "id": "obsidian",
+          "name": "Obsidian",
+          "color": "4B5563"
+        },
+        {
+          "id": "jira",
+          "name": "Jira",
+          "color": "4B5563"
+        },
+        {
+          "id": "linear",
+          "name": "Linear",
+          "color": "4B5563"
+        }
+      ]
+    },
+    {
+      "id": "group-18",
+      "name": "ゲーム・3D・クリエイティブ",
+      "items": [
+        {
+          "id": "unity",
+          "name": "Unity",
+          "color": "4B5563"
+        },
+        {
+          "id": "unreal-engine",
+          "name": "Unreal Engine",
+          "color": "4B5563"
+        },
+        {
+          "id": "godot",
+          "name": "Godot",
+          "color": "4B5563"
+        },
+        {
+          "id": "blender",
+          "name": "Blender",
+          "color": "4B5563"
+        },
+        {
+          "id": "opengl",
+          "name": "OpenGL",
+          "color": "4B5563"
+        },
+        {
+          "id": "vulkan",
+          "name": "Vulkan",
+          "color": "4B5563"
+        },
+        {
+          "id": "metal",
+          "name": "Metal",
+          "color": "4B5563"
+        },
+        {
+          "id": "webgpu",
+          "name": "WebGPU",
+          "color": "4B5563"
+        },
+        {
+          "id": "touchdesigner",
+          "name": "TouchDesigner",
+          "color": "4B5563"
+        },
+        {
+          "id": "processing",
+          "name": "Processing",
+          "color": "4B5563"
+        },
+        {
+          "id": "p5-js",
+          "name": "p5.js",
+          "color": "4B5563"
+        },
+        {
+          "id": "pure-data",
+          "name": "Pure Data",
+          "color": "4B5563"
+        },
+        {
+          "id": "ableton-live",
+          "name": "Ableton Live",
+          "color": "4B5563"
+        },
+        {
+          "id": "juce",
+          "name": "JUCE",
+          "color": "4B5563"
+        },
+        {
+          "id": "supercollider",
+          "name": "SuperCollider",
+          "color": "4B5563"
+        },
+        {
+          "id": "adobe-photoshop",
+          "name": "Adobe Photoshop",
+          "color": "4B5563"
+        },
+        {
+          "id": "adobe-illustrator",
+          "name": "Adobe Illustrator",
+          "color": "4B5563"
+        },
+        {
+          "id": "adobe-premiere-pro",
+          "name": "Adobe Premiere Pro",
+          "color": "4B5563"
+        },
+        {
+          "id": "davinci-resolve",
+          "name": "DaVinci Resolve",
+          "color": "4B5563"
+        }
+      ]
+    },
+    {
+      "id": "group-19",
+      "name": "OS・組み込み・ハードウェア",
+      "items": [
+        {
+          "id": "macos",
+          "name": "macOS",
+          "color": "4B5563"
+        },
+        {
+          "id": "windows",
+          "name": "Windows",
+          "color": "4B5563"
+        },
+        {
+          "id": "windows-server",
+          "name": "Windows Server",
+          "color": "4B5563"
+        },
+        {
+          "id": "debian",
+          "name": "Debian",
+          "color": "4B5563"
+        },
+        {
+          "id": "fedora",
+          "name": "Fedora",
+          "color": "4B5563"
+        },
+        {
+          "id": "arch-linux",
+          "name": "Arch Linux",
+          "color": "4B5563"
+        },
+        {
+          "id": "alpine-linux",
+          "name": "Alpine Linux",
+          "color": "4B5563"
+        },
+        {
+          "id": "wsl",
+          "name": "WSL",
+          "color": "4B5563"
+        },
+        {
+          "id": "raspberry-pi",
+          "name": "Raspberry Pi",
+          "color": "4B5563"
+        },
+        {
+          "id": "arduino",
+          "name": "Arduino",
+          "color": "4B5563"
+        },
+        {
+          "id": "esp32",
+          "name": "ESP32",
+          "color": "4B5563"
+        },
+        {
+          "id": "m5stack",
+          "name": "M5Stack",
+          "color": "4B5563"
+        },
+        {
+          "id": "ros",
+          "name": "ROS",
+          "color": "4B5563"
+        },
+        {
+          "id": "ros-2",
+          "name": "ROS 2",
+          "color": "4B5563"
+        },
+        {
+          "id": "platformio",
+          "name": "PlatformIO",
+          "color": "4B5563"
+        },
+        {
+          "id": "freertos",
+          "name": "FreeRTOS",
+          "color": "4B5563"
+        },
+        {
+          "id": "bluetooth-low-energy",
+          "name": "Bluetooth Low Energy",
+          "color": "4B5563"
+        },
+        {
+          "id": "mqtt",
+          "name": "MQTT",
+          "color": "4B5563"
+        },
+        {
+          "id": "i2c",
+          "name": "I2C",
+          "color": "4B5563"
+        },
+        {
+          "id": "spi",
+          "name": "SPI",
+          "color": "4B5563"
+        },
+        {
+          "id": "uart",
+          "name": "UART",
+          "color": "4B5563"
+        }
+      ]
+    }
+  ]
+}

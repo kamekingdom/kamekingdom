@@ -3,6 +3,10 @@
 This repository contains the GitHub profile README and its Pac-Man contribution
 SVG generator. It has no npm dependencies or build step beyond Node.js.
 
+To choose which technologies appear on the profile, use the
+[Tech Stack management checklist](https://github.com/kamekingdom/kamekingdom/issues/9).
+See the [management guide](docs/tech-stack.md) to add catalog entries or troubleshoot synchronization.
+
 ## Run locally
 
 Use Node.js 22, matching [.nvmrc](.nvmrc) and the workflows. If you use nvm,

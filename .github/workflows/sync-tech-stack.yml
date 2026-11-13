@@ -1,0 +1,43 @@
+name: Sync selected Tech Stack
+
+on:
+  issues:
+    types: [edited]
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - data/tech-stack*.json
+      - src/tech-stack.mjs
+      - scripts/sync-tech-stack.mjs
+      - .github/workflows/sync-tech-stack.yml
+
+permissions:
+  contents: write
+  issues: read
+
+concurrency:
+  group: sync-tech-stack
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.event_name != 'issues' || github.event.issue.number == 9
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the current source
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+
+      - name: Sync README from the management checklist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run tech-stack:sync
