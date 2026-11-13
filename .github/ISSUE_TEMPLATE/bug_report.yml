@@ -1,0 +1,26 @@
+name: Bug report
+description: Report a reproducible problem in the profile or SVG generator
+title: "fix: "
+labels: [bug]
+body:
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Current and expected behavior
+      description: Describe the problem and the behavior you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction and environment
+      description: Include commands, input shape, Node.js version, and a run URL if relevant. Remove tokens and private data.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Describe how the fix can be verified.
+    validations:
+      required: true

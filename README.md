@@ -3,8 +3,27 @@ Bridging advanced AI research with real-world impact through hands-on system dev
 
 ---
 
+### Engineering in this repository
+
+This profile includes a JavaScript pipeline that turns GitHub contribution data
+into a self-contained animated SVG, with no runtime npm dependencies.
+
+| Focus | Implementation and evidence |
+| --- | --- |
+| Data pipeline | [GraphQL calendar normalization](src/contributions.mjs) → [route generation and SVG rendering](src/svg.mjs) |
+| Reliability | [Regression tests](test/svg.test.mjs) for route continuity, partial weeks, boundary input, and fade timing |
+| Delivery | [Offline PR validation](.github/workflows/validate.yml) and [scheduled publication](.github/workflows/pacman-contributions.yml) |
+| Design decisions | [Architecture and tradeoffs](docs/architecture.md) · [Local development](CONTRIBUTING.md) |
+
+[Issues](https://github.com/kamekingdom/kamekingdom/issues) · [Pull requests](https://github.com/kamekingdom/kamekingdom/pulls) · [Third-party attribution](THIRD_PARTY_NOTICES.md)
+
+---
+
 <!-- ─── Tech Stack ─────────────────────────────────────────── -->
 ### Tech Stack
+
+<details>
+<summary>Languages, frameworks, and tools</summary>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
@@ -37,6 +56,8 @@ Bridging advanced AI research with real-world impact through hands-on system dev
 
 ![Max 8](https://img.shields.io/badge/Max%208-000000?style=for-the-badge&logo=cycling74&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+</details>
 <!-- ────────────────────────────────────────────────────────── -->
 
 ---

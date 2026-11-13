@@ -1,0 +1,26 @@
+name: Improvement
+description: Propose an improvement with a clear outcome
+title: "feat: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and evidence
+      description: Explain the current limitation and who it affects.
+    validations:
+      required: true
+  - type: textarea
+    id: approach
+    attributes:
+      label: Proposed approach and scope
+      description: Describe the change and relevant tradeoffs.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria and validation
+      description: List observable completion conditions and how to check them.
+    validations:
+      required: true
