@@ -38,6 +38,8 @@ Bridging advanced AI research with real-world impact through hands-on system dev
 
 ![Max 8](https://img.shields.io/badge/Max%208-000000?style=for-the-badge&logo=cycling74&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+![TypeScript](https://img.shields.io/badge/TypeScript-4B5563?style=for-the-badge)
 <!-- tech-stack:end -->
 <!-- ────────────────────────────────────────────────────────── -->
 
