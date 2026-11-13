@@ -31,6 +31,12 @@ Never put a token in repository files, screenshots, or issue logs. The live API
 path is separate from the offline checks; its timeout and error-test work is
 tracked in [#3](https://github.com/kamekingdom/kamekingdom/issues/3).
 
+Live requests have a 15-second deadline covering the response headers and body.
+`fetchCalendar` accepts `timeoutMs` for callers that need a different deadline.
+It sends one request without automatic retries; timeout failures preserve the
+native `TimeoutError`. The API tests use injected responses and a loopback HTTP
+server, so they do not contact GitHub or need real credentials.
+
 ## Make a change
 
 1. Open an issue with the current behavior, expected behavior, and acceptance criteria.

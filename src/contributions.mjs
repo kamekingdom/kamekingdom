@@ -27,8 +27,12 @@ function toLevel(count, max) {
   return 1;
 }
 
-export async function fetchCalendar({ username, token }) {
-  const res = await fetch("https://api.github.com/graphql", {
+export async function fetchCalendar({ username, token, timeoutMs = 15_000, fetchImpl = fetch }) {
+  if (!Number.isInteger(timeoutMs) || timeoutMs <= 0 || timeoutMs > 2 ** 31 - 1) {
+    throw new RangeError("timeoutMs must be an integer from 1 to 2147483647");
+  }
+  // The signal also bounds response-body reads when using the native fetch.
+  const res = await fetchImpl("https://api.github.com/graphql", {
     method: "POST",
     headers: {
       Authorization: `bearer ${token}`,
@@ -36,6 +40,7 @@ export async function fetchCalendar({ username, token }) {
       "User-Agent": "pacman-contribution-graph",
     },
     body: JSON.stringify({ query: QUERY, variables: { login: username } }),
+    signal: AbortSignal.timeout(timeoutMs),
   });
 
   if (!res.ok) throw new Error(`GitHub API ${res.status}: ${await res.text()}`);
