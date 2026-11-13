@@ -1,6 +1,6 @@
 # Tech Stackの管理
 
-[管理Issue #9](https://github.com/kamekingdom/kamekingdom/issues/9) でカテゴリを開き、
+[管理Issue #9](https://github.com/kamekingdom/kamekingdom/issues/9) の一覧から、
 READMEに掲載したい技術をチェックしてください。チェックを外すと掲載も解除されます。
 保存後、Actionsの **Sync selected Tech Stack** がREADMEを更新します。
 
@@ -9,7 +9,7 @@ READMEに掲載したい技術をチェックしてください。チェック�
 
 ## 表示を変える
 
-1. 管理Issueでカテゴリを開く。
+1. 管理Issueで技術を探す。カテゴリは常時表示され、ページ内検索（⌘F / Ctrl+F）も使える。
 2. 掲載する技術にチェックを入れ、掲載しない技術のチェックを外す。
 3. [同期Actions](https://github.com/kamekingdom/kamekingdom/actions/workflows/sync-tech-stack.yml)
    が成功したら、プロフィールを再読み込みする。

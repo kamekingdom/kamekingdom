@@ -63,7 +63,6 @@ export function parseSelection(body, catalog, { requireComplete = true } = {}) {
 }
 
 const escapeMarkdown = (text) => text.replace(/[\\[\]]/g, "\\$&");
-const escapeHtml = (text) => text.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
 
 export function badgeUrl(item) {
   if (item.badgeUrl) return item.badgeUrl;
@@ -96,11 +95,11 @@ export function selectionFromReadme(readme, catalog) {
 export function buildChecklist(catalog, selected) {
   // Validate selection before emitting a new management checklist.
   renderBadges(catalog, selected);
-  const groups = catalog.categories.map((category) => `<details>\n<summary>${escapeHtml(category.name)}</summary>\n\n` +
-    category.items.map((item) => `- [${selected.has(item.id) ? "x" : " "}] ${escapeMarkdown(item.name)} <!-- tech-stack:${item.id} -->`).join("\n") +
-    "\n\n</details>");
+  const groups = catalog.categories.map((category) => `### ${escapeMarkdown(category.name)}\n\n` +
+    category.items.map((item) => `- [${selected.has(item.id) ? "x" : " "}] ${escapeMarkdown(item.name)} <!-- tech-stack:${item.id} -->`).join("\n"));
   return `## READMEに表示するTech Stack\n\n` +
-    `カテゴリを開き、READMEに掲載したい技術にチェックしてください。チェックを外すとREADMEからも消えます。保存後、GitHub ActionsがTech Stack欄だけを自動更新します。\n\n` +
+    `READMEに掲載したい技術にチェックしてください。チェックを外すとREADMEからも消えます。保存後、GitHub ActionsがTech Stack欄だけを自動更新します。\n\n` +
+    `カテゴリは常に表示されます。技術名はページ内検索（⌘F / Ctrl+F）でも探せます。\n\n` +
     `初期選択は、元のREADMEに掲載されていた27項目です。追加候補は未選択です。候補に載っていることは、習得済みという意味ではありません。\n\n` +
     `このIssueは管理用です。完了として閉じずに使ってください。項目名の後ろの非表示IDと区切りコメントは削除しないでください。\n\n` +
     `${SELECTION_START}\n\n${groups.join("\n\n")}\n\n${SELECTION_END}\n\n` +
