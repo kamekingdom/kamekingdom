@@ -2,7 +2,11 @@
   "name": "kamekingdom-profile-pacman",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
+    "test": "node --test",
     "demo": "node src/generate.mjs --demo --out dist",
     "build": "node src/generate.mjs --out dist"
   }

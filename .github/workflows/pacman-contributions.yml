@@ -11,6 +11,7 @@ on:
       - README.md
       - src/**
       - package.json
+      - .nvmrc
       - .github/workflows/pacman-contributions.yml
 
 permissions:
@@ -26,6 +27,11 @@ jobs:
     steps:
       - name: Check out the profile repository
         uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
 
       - name: Generate animated SVG
         env:
