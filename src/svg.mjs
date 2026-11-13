@@ -13,7 +13,7 @@ const MOUTH_SHUT = 2;
 const ROWS = 7;
 
 const round = (number) => Math.round(number * 100) / 100;
-const opposite = (row) => (row === 0 ? ROWS - 1 : 0);
+const time = (number) => Math.round(number * 1_000_000) / 1_000_000;
 const exists = (grid, week, day) => !!(grid[week] && grid[week][day]);
 
 function neighbors(grid, week, day) {
@@ -33,6 +33,7 @@ function randomHamiltonian(grid, random, tries) {
     }
   }
   const total = cells.length;
+  if (total < 2) return cells;
   const start = cells[0];
 
   for (let attempt = 0; attempt < tries; attempt++) {
@@ -67,47 +68,37 @@ function randomHamiltonian(grid, random, tries) {
   return null;
 }
 
-function zonePath(grid, random) {
-  const order = [];
-  let column = 0;
-  let startRow = 0;
-
-  while (column < grid.length) {
-    const width = 3 + Math.floor(random() * 6);
-    const end = Math.min(column + width, grid.length);
-    const actualWidth = end - column;
-    const vertical = random() < 0.5;
-
-    if (vertical) {
-      let row = startRow;
-      for (let current = column; current < end; current++) {
-        if (row === 0) {
-          for (let day = 0; day < ROWS; day++) order.push([current, day]);
-        } else {
-          for (let day = ROWS - 1; day >= 0; day--) order.push([current, day]);
-        }
-        row = opposite(row);
-      }
-      startRow = actualWidth % 2 === 1 ? opposite(startRow) : startRow;
-    } else {
-      const rows = startRow === 0 ? [0, 1, 2, 3, 4, 5, 6] : [6, 5, 4, 3, 2, 1, 0];
-      let direction = 1;
-      for (const day of rows) {
-        if (direction === 1) {
-          for (let current = column; current < end; current++) order.push([current, day]);
-        } else {
-          for (let current = end - 1; current >= column; current--) order.push([current, day]);
-        }
-        direction = -direction;
-      }
-      startRow = opposite(startRow);
+// A connected walk is always possible even when a once-per-cell path is not.
+// Backtracking can revisit cells, but never jumps across missing calendar days.
+function connectedWalk(grid) {
+  const cells = [];
+  for (let week = 0; week < grid.length; week++) {
+    for (let day = 0; day < ROWS; day++) {
+      if (exists(grid, week, day)) cells.push([week, day]);
     }
-    column = end;
   }
-  return order.filter(([week, day]) => exists(grid, week, day));
+  if (cells.length === 0) return [];
+  const seen = new Set();
+  const path = [];
+  function visit(cell) {
+    const [week, day] = cell;
+    seen.add(`${week},${day}`);
+    path.push(cell);
+    for (const next of neighbors(grid, week, day)) {
+      if (seen.has(next.join(","))) continue;
+      visit(next);
+      path.push(cell);
+    }
+  }
+  visit(cells[0]);
+  if (seen.size !== cells.length) {
+    throw new RangeError("Contribution grid days must form a connected calendar");
+  }
+  return path;
 }
 
 function backbite(grid, path, random, moves) {
+  if (path.length < 2) return path;
   const key = (cell) => `${cell[0]},${cell[1]}`;
   const positions = new Map(path.map((cell, index) => [key(cell), index]));
   const length = path.length;
@@ -139,10 +130,9 @@ function backbite(grid, path, random, moves) {
   return path;
 }
 
-export function pathOrder(grid) {
-  const random = Math.random;
-  const seed = randomHamiltonian(grid, random, 500) || zonePath(grid, random);
-  return backbite(grid, seed, random, seed.length * 14);
+export function pathOrder(grid, { random = Math.random } = {}) {
+  const seed = randomHamiltonian(grid, random, 500);
+  return seed ? backbite(grid, seed, random, seed.length * 14) : connectedWalk(grid);
 }
 
 const centerX = (week) => MARGIN_X + week * PITCH + CELL / 2;
@@ -158,8 +148,9 @@ function pacPath(angleDegrees) {
 }
 
 function eatAnimation(fraction, fadeWidth, duration) {
-  const start = round(fraction);
-  const end = round(Math.min(fraction + fadeWidth, 1));
+  // Keep the last fade inside the loop, and preserve sub-percent intervals.
+  const start = time(Math.min(fraction, 1 - fadeWidth));
+  const end = time(Math.min(fraction + fadeWidth, 1));
   let keyTimes;
   let values;
   if (start <= 0) {
@@ -175,16 +166,20 @@ function eatAnimation(fraction, fadeWidth, duration) {
   return `<animate attributeName="opacity" dur="${duration}s" repeatCount="indefinite" values="${values}" keyTimes="${keyTimes}"/>`;
 }
 
-export function buildSvg(grid) {
-  const order = pathOrder(grid);
+export function buildSvg(grid, options) {
+  const order = pathOrder(grid, options);
   const count = order.length;
+  if (count === 0) throw new RangeError("Contribution grid must contain at least one day");
   const duration = round(count * SECONDS_PER_CELL);
   const fadeWidth = 0.28 / count;
   const width = MARGIN_X * 2 + grid.length * PITCH - GAP;
   const height = MARGIN_Y * 2 + ROWS * PITCH - GAP;
 
   const orderIndex = new Map();
-  order.forEach(([week, day], index) => orderIndex.set(`${week},${day}`, index));
+  order.forEach(([week, day], index) => {
+    const key = `${week},${day}`;
+    if (!orderIndex.has(key)) orderIndex.set(key, index);
+  });
 
   const emptyCells = [];
   const squares = [];
