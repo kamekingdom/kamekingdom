@@ -7,6 +7,8 @@
   },
   "scripts": {
     "test": "node --test",
+    "tech-stack:sync": "node scripts/sync-tech-stack.mjs",
+    "tech-stack:checklist": "node scripts/sync-tech-stack.mjs --checklist",
     "demo": "node src/generate.mjs --demo --out dist",
     "build": "node src/generate.mjs --out dist"
   }
