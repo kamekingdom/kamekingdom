@@ -42,13 +42,19 @@ Bridging advanced AI research with real-world impact through hands-on system dev
 
 **Backend & APIs**
 
+![Django](assets/tech-stack/django.svg)
+![FastAPI](assets/tech-stack/fastapi.svg)
 ![Laravel](assets/tech-stack/laravel.svg)
+![Node.js](assets/tech-stack/node-js.svg)
+![REST API](assets/tech-stack/rest-api.svg)
 ![Ruby on Rails](assets/tech-stack/ruby-on-rails.svg)
 
 **AI & Machine Learning**
 
 ![Azure OCR](assets/tech-stack/azure-ocr.svg)
 ![CatBoost](assets/tech-stack/catboost.svg)
+![Claude API](assets/tech-stack/claude-api.svg)
+![Gemini API](assets/tech-stack/gemini-api.svg)
 ![Google Vision](assets/tech-stack/google-vision.svg)
 ![Hugging Face](assets/tech-stack/hugging-face.svg)
 ![LightGBM](assets/tech-stack/lightgbm.svg)
