@@ -110,3 +110,74 @@ test("invalid timeout values fail before making a request", async () => {
     }), { name: "RangeError" });
   }
 });
+
+test("invalid JSON and GraphQL response structures have actionable errors", async () => {
+  for (const [response, message] of [
+    [() => new Response('{"data":', { status: 200 }), /invalid JSON/],
+    [() => Response.json(null), /JSON object/],
+    [() => Response.json([]), /JSON object/],
+    [() => Response.json({ errors: "invalid" }), /GraphQL errors field/],
+    [() => Response.json(calendarResponse(null)), /weeks must be a non-empty array/],
+    [() => Response.json(calendarResponse({})), /weeks must be a non-empty array/],
+    [() => Response.json(calendarResponse([])), /weeks must be a non-empty array/],
+    [() => Response.json(calendarResponse([null])), /contributionDays/],
+    [() => Response.json(calendarResponse([{}])), /contributionDays/],
+    [() => Response.json(calendarResponse([{ contributionDays: {} }])), /contributionDays/],
+    [() => Response.json(calendarResponse([{ contributionDays: [] }])), /contributionDays/],
+  ]) {
+    await assert.rejects(fetchCalendar({ ...credentials, fetchImpl: async () => response() }), message);
+  }
+});
+
+test("invalid day values and duplicate weekdays are rejected before rendering", async () => {
+  const valid = { weekday: 0, contributionCount: 1 };
+  const invalid = [
+    null, {}, { ...valid, weekday: -1 }, { ...valid, weekday: 7 },
+    { ...valid, weekday: 1.5 }, { ...valid, weekday: "0" },
+    { ...valid, contributionCount: -1 }, { ...valid, contributionCount: 1.5 },
+    { ...valid, contributionCount: "1" }, { ...valid, contributionCount: null },
+    { ...valid, contributionCount: Number.MAX_SAFE_INTEGER + 1 },
+  ];
+  for (const day of invalid) {
+    await assert.rejects(fetchCalendar({
+      ...credentials,
+      fetchImpl: async () => Response.json(calendarResponse([{ contributionDays: [day] }])),
+    }), /invalid weekday|invalid contributionCount/);
+  }
+  for (const days of [[valid, valid], Array(8).fill(valid)]) {
+    await assert.rejects(fetchCalendar({
+      ...credentials,
+      fetchImpl: async () => Response.json(calendarResponse([{ contributionDays: days }])),
+    }), /duplicate weekday|1 to 7/);
+  }
+});
+
+test("zero contributions and an empty GraphQL errors array remain valid", async () => {
+  const json = calendarResponse([{ contributionDays: [{ weekday: 6, contributionCount: 0 }] }]);
+  const grid = await fetchCalendar({ ...credentials, fetchImpl: async () => Response.json({ ...json, errors: [] }) });
+  assert.deepEqual(grid[0][6], { count: 0, level: 0 });
+  assert.equal(0 in grid[0], false);
+});
+
+test("tokens in upstream responses, errors, and cached stacks never reach diagnostics", async () => {
+  const token = 'test-secret"/token';
+  for (const fetchImpl of [
+    async () => new Response(`Unauthorized ${token}`, { status: 401 }),
+    async () => Response.json({ errors: [{ message: `Denied ${token}` }] }),
+    async () => {
+      const error = new Error(`Network failure ${encodeURIComponent(token)}`);
+      error.cause = new Error(token);
+      void error.stack;
+      throw error;
+    },
+  ]) {
+    await assert.rejects(fetchCalendar({ username: "example", token, fetchImpl }), (error) => {
+      assert.match(error.message, /\[REDACTED\]/);
+      assert.ok(!error.stack.includes(token));
+      assert.ok(!error.stack.includes(JSON.stringify(token).slice(1, -1)));
+      assert.ok(!error.stack.includes(encodeURIComponent(token)));
+      assert.equal(error.cause, undefined);
+      return true;
+    });
+  }
+});
