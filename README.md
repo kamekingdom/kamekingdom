@@ -48,6 +48,9 @@ Bridging advanced AI research with real-world impact through hands-on system dev
 ![Vite](https://img.shields.io/badge/Vite-4B5563?style=for-the-badge)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4B5563?style=for-the-badge)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-4B5563?style=for-the-badge)
+![jQuery](https://img.shields.io/badge/jQuery-4B5563?style=for-the-badge)
+
+![SwiftUI](https://img.shields.io/badge/SwiftUI-4B5563?style=for-the-badge)
 <!-- tech-stack:end -->
 <!-- ────────────────────────────────────────────────────────── -->
 
