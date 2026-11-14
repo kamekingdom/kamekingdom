@@ -61,6 +61,10 @@ Bridging advanced AI research with real-world impact through hands-on system dev
 ![XGBoost](https://img.shields.io/badge/XGBoost-4B5563?style=for-the-badge)
 ![LightGBM](https://img.shields.io/badge/LightGBM-4B5563?style=for-the-badge)
 ![CatBoost](https://img.shields.io/badge/CatBoost-4B5563?style=for-the-badge)
+![OpenAI Agents SDK](https://img.shields.io/badge/OpenAI%20Agents%20SDK-4B5563?style=for-the-badge)
+![MCP](https://img.shields.io/badge/MCP-4B5563?style=for-the-badge)
+
+![NumPy](https://img.shields.io/badge/NumPy-4B5563?style=for-the-badge)
 <!-- tech-stack:end -->
 <!-- ────────────────────────────────────────────────────────── -->
 
