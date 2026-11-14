@@ -51,6 +51,12 @@ Bridging advanced AI research with real-world impact through hands-on system dev
 ![jQuery](https://img.shields.io/badge/jQuery-4B5563?style=for-the-badge)
 
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-4B5563?style=for-the-badge)
+
+![Laravel](https://img.shields.io/badge/Laravel-4B5563?style=for-the-badge)
+![Ruby on Rails](https://img.shields.io/badge/Ruby%20on%20Rails-4B5563?style=for-the-badge)
+
+![PyTorch](https://img.shields.io/badge/PyTorch-4B5563?style=for-the-badge)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-4B5563?style=for-the-badge)
 <!-- tech-stack:end -->
 <!-- ────────────────────────────────────────────────────────── -->
 
