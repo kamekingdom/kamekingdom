@@ -69,6 +69,12 @@ Bridging advanced AI research with real-world impact through hands-on system dev
 ![SciPy](https://img.shields.io/badge/SciPy-4B5563?style=for-the-badge)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-4B5563?style=for-the-badge)
 ![Seaborn](https://img.shields.io/badge/Seaborn-4B5563?style=for-the-badge)
+![Jupyter](https://img.shields.io/badge/Jupyter-4B5563?style=for-the-badge)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-4B5563?style=for-the-badge)
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4B5563?style=for-the-badge)
+![MySQL](https://img.shields.io/badge/MySQL-4B5563?style=for-the-badge)
+![Firestore](https://img.shields.io/badge/Firestore-4B5563?style=for-the-badge)
 <!-- tech-stack:end -->
 <!-- ────────────────────────────────────────────────────────── -->
 
