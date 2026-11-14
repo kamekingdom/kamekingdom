@@ -77,6 +77,9 @@ Bridging advanced AI research with real-world impact through hands-on system dev
 ![Firestore](https://img.shields.io/badge/Firestore-4B5563?style=for-the-badge)
 
 ![Microsoft Azure](https://img.shields.io/badge/Microsoft%20Azure-4B5563?style=for-the-badge)
+
+![Git](https://img.shields.io/badge/Git-4B5563?style=for-the-badge)
+![GitHub](https://img.shields.io/badge/GitHub-4B5563?style=for-the-badge)
 <!-- tech-stack:end -->
 <!-- ────────────────────────────────────────────────────────── -->
 
