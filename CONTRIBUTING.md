@@ -33,8 +33,21 @@ npm run build -- --user kamekingdom
 ```
 
 Never put a token in repository files, screenshots, or issue logs. The live API
-path is separate from the offline checks; its timeout and error-test work is
+path is separate from the offline checks. The API error-handling work is
 tracked in [#3](https://github.com/kamekingdom/kamekingdom/issues/3).
+
+Live requests have a 15-second deadline covering the response headers and body.
+`fetchCalendar` accepts `timeoutMs` for callers that need a different deadline.
+It sends one request without automatic retries; timeout failures preserve the
+`TimeoutError` name. The API tests use injected responses and a loopback HTTP
+server, so they do not contact GitHub or need real credentials.
+
+Malformed JSON, calendar structure, duplicate weekdays, and invalid day values
+are rejected with descriptive errors. Tokens are redacted from reported API and
+network errors. If a live build fails, check the HTTP status or validation error,
+confirm the username and token permissions, and retry once the cause is fixed.
+The CLI fetches and validates data before writing the SVG, so API failures leave
+an existing output file unchanged.
 
 ## Make a change
 
