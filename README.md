@@ -66,6 +66,8 @@ Bridging advanced AI research with real-world impact through hands-on system dev
 ![scikit-learn](assets/tech-stack/scikit-learn.svg)
 ![TensorFlow](assets/tech-stack/tensorflow.svg)
 ![Transformers](assets/tech-stack/transformers.svg)
+![Ultralytics YOLO](assets/tech-stack/ultralytics-yolo.svg)
+![vLLM](assets/tech-stack/vllm.svg)
 ![XGBoost](assets/tech-stack/xgboost.svg)
 
 **Data Science & Research**
