@@ -65,6 +65,10 @@ Bridging advanced AI research with real-world impact through hands-on system dev
 ![MCP](https://img.shields.io/badge/MCP-4B5563?style=for-the-badge)
 
 ![NumPy](https://img.shields.io/badge/NumPy-4B5563?style=for-the-badge)
+![pandas](https://img.shields.io/badge/pandas-4B5563?style=for-the-badge)
+![SciPy](https://img.shields.io/badge/SciPy-4B5563?style=for-the-badge)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-4B5563?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/Seaborn-4B5563?style=for-the-badge)
 <!-- tech-stack:end -->
 <!-- ────────────────────────────────────────────────────────── -->
 
