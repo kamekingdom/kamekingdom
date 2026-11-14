@@ -40,6 +40,10 @@ Bridging advanced AI research with real-world impact through hands-on system dev
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-4B5563?style=for-the-badge)
+![SQL](https://img.shields.io/badge/SQL-4B5563?style=for-the-badge)
+![PowerShell](https://img.shields.io/badge/PowerShell-4B5563?style=for-the-badge)
+
+![Next.js](https://img.shields.io/badge/Next.js-4B5563?style=for-the-badge)
 <!-- tech-stack:end -->
 <!-- ────────────────────────────────────────────────────────── -->
 
