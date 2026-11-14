@@ -1,0 +1,4480 @@
+{
+  "categories": [
+    {
+      "id": "languages",
+      "name": "プログラミング言語",
+      "readmeName": "Languages",
+      "items": [
+        {
+          "id": "assembly",
+          "name": "Assembly",
+          "color": "00599C",
+          "icon": {
+            "provider": "category",
+            "key": "languages",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/assembly.svg"
+        },
+        {
+          "id": "bash",
+          "name": "Bash",
+          "color": "293138",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-bash",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/bash/bash-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/bash.svg"
+        },
+        {
+          "name": "C",
+          "id": "c",
+          "color": "00599C",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "c",
+            "source": "https://commons.wikimedia.org/wiki/File:The_C_Programming_Language_logo.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/c.svg"
+        },
+        {
+          "name": "C#",
+          "id": "csharp",
+          "color": "239120",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-csharp",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/csharp/csharp-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/csharp.svg"
+        },
+        {
+          "name": "C++",
+          "id": "cpp",
+          "color": "00599C",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "cplusplus",
+            "source": "https://github.com/isocpp/logos/tree/64ef037049f87ac74875dbe72695e59118b52186",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/cpp.svg"
+        },
+        {
+          "id": "clojure",
+          "name": "Clojure",
+          "color": "5881D8",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "clojure",
+            "source": "https://commons.wikimedia.org/wiki/File:Clojure_logo.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/clojure.svg"
+        },
+        {
+          "name": "Dart",
+          "id": "dart",
+          "color": "0175C2",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "dart",
+            "source": "https://github.com/dart-lang/site-shared/tree/18458ff440afd3d06f04e5cb871c4c5eda29c9d5/src/_assets/image/dart/logo",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/dart.svg"
+        },
+        {
+          "id": "elixir",
+          "name": "Elixir",
+          "color": "8847B9",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "elixir",
+            "source": "https://github.com/elixir-lang/elixir-lang.github.com/tree/031746384ee23b9be19298c92a9699c56cc05845/images/logo",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/elixir.svg"
+        },
+        {
+          "id": "go",
+          "name": "Go",
+          "color": "00ADD8",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "go",
+            "source": "https://blog.golang.org/go-brand",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/go.svg"
+        },
+        {
+          "id": "groovy",
+          "name": "Groovy",
+          "color": "619CBC",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-groovy",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/groovy/groovy-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/groovy.svg"
+        },
+        {
+          "id": "haskell",
+          "name": "Haskell",
+          "color": "5D4F85",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "haskell",
+            "source": "https://wiki.haskell.org/Thompson-Wheeler_logo",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/haskell.svg"
+        },
+        {
+          "name": "Java",
+          "id": "java",
+          "color": "007396",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-java",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/java/java-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/java.svg"
+        },
+        {
+          "name": "JavaScript",
+          "id": "javascript",
+          "color": "F7DF1E",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "javascript",
+            "source": "https://github.com/voodootikigod/logo.js/blob/1544bdeed6d618a6cfe4f0650d04ab8d9cfa76d9/js.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/javascript.svg"
+        },
+        {
+          "id": "julia",
+          "name": "Julia",
+          "color": "9558B2",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "julia",
+            "source": "https://github.com/JuliaLang/julia-logo-graphics/blob/b5551ca7946b4a25746c045c15fbb8806610f8d0/images/julia-dots.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/julia.svg"
+        },
+        {
+          "id": "kotlin",
+          "name": "Kotlin",
+          "color": "7F52FF",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "kotlin",
+            "source": "https://www.jetbrains.com/company/brand/logos/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/kotlin.svg"
+        },
+        {
+          "id": "lua",
+          "name": "Lua",
+          "color": "000080",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "lua",
+            "source": "https://www.lua.org/images/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/lua.svg"
+        },
+        {
+          "id": "matlab",
+          "name": "MATLAB",
+          "color": "6DD0C7",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-matlab",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/matlab/matlab-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/matlab.svg"
+        },
+        {
+          "id": "objective-c",
+          "name": "Objective-C",
+          "color": "0B5A9D",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-objectivec",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/objectivec/objectivec-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/objective-c.svg"
+        },
+        {
+          "id": "perl",
+          "name": "Perl",
+          "color": "0073A1",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "perl",
+            "source": "https://github.com/metacpan/perl-assets/blob/56b555711934dde8fd0b20ec29ecc3bf81a3d493/blessed/src/010.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/perl.svg"
+        },
+        {
+          "name": "PHP",
+          "id": "php",
+          "color": "777BB4",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "php",
+            "source": "https://php.net/download-logos.php",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/php.svg"
+        },
+        {
+          "id": "powershell",
+          "name": "PowerShell",
+          "color": "5391FE",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-powershell",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/powershell/powershell-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/powershell.svg"
+        },
+        {
+          "name": "Python",
+          "id": "python",
+          "color": "3776AB",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "python",
+            "source": "https://www.python.org/community/logos/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/python.svg"
+        },
+        {
+          "name": "R",
+          "id": "r",
+          "color": "276DC3",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "r",
+            "source": "https://www.r-project.org/logo/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/r.svg"
+        },
+        {
+          "id": "ruby",
+          "name": "Ruby",
+          "color": "CC342D",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "ruby",
+            "source": "https://www.ruby-lang.org/en/about/logo/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/ruby.svg"
+        },
+        {
+          "id": "rust",
+          "name": "Rust",
+          "color": "000000",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "rust",
+            "source": "https://www.rust-lang.org",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/rust.svg"
+        },
+        {
+          "id": "scala",
+          "name": "Scala",
+          "color": "DC322F",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "scala",
+            "source": "https://www.scala-lang.org",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/scala.svg"
+        },
+        {
+          "id": "sql",
+          "name": "SQL",
+          "color": "336791",
+          "icon": {
+            "provider": "category",
+            "key": "databases",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/sql.svg"
+        },
+        {
+          "name": "Swift",
+          "id": "swift",
+          "color": "FA7343",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "swift",
+            "source": "https://developer.apple.com/swift/resources/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/swift.svg"
+        },
+        {
+          "id": "typescript",
+          "name": "TypeScript",
+          "color": "3178C6",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "typescript",
+            "source": "https://www.typescriptlang.org/branding",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/typescript.svg"
+        },
+        {
+          "id": "vba",
+          "name": "VBA",
+          "color": "2563EB",
+          "icon": {
+            "provider": "category",
+            "key": "languages",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/vba.svg"
+        }
+      ]
+    },
+    {
+      "id": "frontend",
+      "name": "フロントエンド",
+      "readmeName": "Frontend",
+      "items": [
+        {
+          "id": "angular",
+          "name": "Angular",
+          "color": "0F0F11",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "angular",
+            "source": "https://angular.dev/press-kit",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/angular.svg"
+        },
+        {
+          "id": "astro",
+          "name": "Astro",
+          "color": "BC52EE",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "astro",
+            "source": "https://astro.build/press",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/astro.svg"
+        },
+        {
+          "id": "bootstrap",
+          "name": "Bootstrap",
+          "color": "7952B3",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "bootstrap",
+            "source": "https://getbootstrap.com/docs/5.3/about/brand",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/bootstrap.svg"
+        },
+        {
+          "id": "css-modules",
+          "name": "CSS Modules",
+          "color": "000000",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "cssmodules",
+            "source": "https://github.com/css-modules/logos/blob/32e4717062e4328ed861fa92d5d9cfd47859362f/css-modules-logo.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/css-modules.svg"
+        },
+        {
+          "name": "CSS3",
+          "id": "css3",
+          "color": "1572B6",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-css3",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/css3/css3-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/css3.svg"
+        },
+        {
+          "id": "d3-js",
+          "name": "D3.js",
+          "color": "F9A03C",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "d3",
+            "source": "https://github.com/d3/d3-logo/tree/6d9c471aa852033501d00ca63fe73d9f8be82d1d",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/d3-js.svg"
+        },
+        {
+          "name": "HTML5",
+          "id": "html5",
+          "color": "E34F26",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "html5",
+            "source": "https://www.w3.org/html/logo/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/html5.svg"
+        },
+        {
+          "id": "htmx",
+          "name": "HTMX",
+          "color": "3366CC",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "htmx",
+            "source": "https://github.com/bigskysoftware/htmx/blob/f690d928342b6334fa539cfbd4be515748d2ba0f/www/static/img/htmx_logo.2.png",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/htmx.svg"
+        },
+        {
+          "id": "jquery",
+          "name": "jQuery",
+          "color": "0769AD",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "jquery",
+            "source": "https://brand.jquery.org/logos/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/jquery.svg"
+        },
+        {
+          "id": "next-js",
+          "name": "Next.js",
+          "color": "000000",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "nextdotjs",
+            "source": "https://vercel.com/design/brands#next-js",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/next-js.svg"
+        },
+        {
+          "id": "nuxt",
+          "name": "Nuxt",
+          "color": "00DC82",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "nuxt",
+            "source": "https://nuxt.com/design-kit",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/nuxt.svg"
+        },
+        {
+          "name": "React",
+          "id": "react",
+          "color": "61DAFB",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "react",
+            "source": "https://github.com/facebook/create-react-app/blob/282c03f9525fdf8061ffa1ec50dce89296d916bd/test/fixtures/relative-paths/src/logo.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/react.svg"
+        },
+        {
+          "id": "redux",
+          "name": "Redux",
+          "color": "764ABC",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "redux",
+            "source": "https://github.com/reduxjs/redux/blob/abb5f892f7e46849e5ca9bc13e75cfbc944a71b6/logo/logo.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/redux.svg"
+        },
+        {
+          "id": "sass",
+          "name": "Sass",
+          "color": "CC6699",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "sass",
+            "source": "https://sass-lang.com/styleguide/brand",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/sass.svg"
+        },
+        {
+          "id": "storybook",
+          "name": "Storybook",
+          "color": "FF4785",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "storybook",
+            "source": "https://github.com/storybookjs/brand/tree/6f4d67f65f8275c53c310a73a8da6c6e96c8488c",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/storybook.svg"
+        },
+        {
+          "id": "svelte",
+          "name": "Svelte",
+          "color": "FF3E00",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "svelte",
+            "source": "https://github.com/sveltejs/branding/blob/c4dfca6743572087a6aef0e109ffe3d95596e86a/svelte-logo.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/svelte.svg"
+        },
+        {
+          "id": "sveltekit",
+          "name": "SvelteKit",
+          "color": "FF3E00",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "svelte",
+            "source": "https://github.com/sveltejs/branding/blob/c4dfca6743572087a6aef0e109ffe3d95596e86a/svelte-logo.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/sveltekit.svg"
+        },
+        {
+          "id": "tailwind-css",
+          "name": "Tailwind CSS",
+          "color": "06B6D4",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "tailwindcss",
+            "source": "https://tailwindcss.com/brand",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/tailwind-css.svg"
+        },
+        {
+          "id": "tanstack-query",
+          "name": "TanStack Query",
+          "color": "ECE8D1",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "tanstack",
+            "source": "https://tanstack.com/images/brand/tanstack-emblem-cream.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/tanstack-query.svg"
+        },
+        {
+          "id": "three-js",
+          "name": "Three.js",
+          "color": "000000",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "threedotjs",
+            "source": "https://github.com/mrdoob/three.js/blob/a567b810cfcb7f6a03e4faea99f03c53081da477/files/icon.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/three-js.svg"
+        },
+        {
+          "id": "vite",
+          "name": "Vite",
+          "color": "9135FF",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "vite",
+            "source": "https://github.com/voidzero-dev/community-design-resources/blob/55902097229cf01cf2a4ceb376f992f5cf306756/brand-assets/vite/vite-icon-color-bracketless.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/vite.svg"
+        },
+        {
+          "id": "vue-js",
+          "name": "Vue.js",
+          "color": "4FC08D",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "vuedotjs",
+            "source": "https://github.com/vuejs/art/blob/a1c78b74569b70a25300925b4eacfefcc143b8f6/logo.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/vue-js.svg"
+        },
+        {
+          "id": "web-components",
+          "name": "Web Components",
+          "color": "0891B2",
+          "icon": {
+            "provider": "category",
+            "key": "frontend",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/web-components.svg"
+        },
+        {
+          "id": "webpack",
+          "name": "Webpack",
+          "color": "8DD6F9",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "webpack",
+            "source": "https://webpack.js.org/branding",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/webpack.svg"
+        },
+        {
+          "id": "zustand",
+          "name": "Zustand",
+          "color": "443E38",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-zustand",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/zustand/zustand-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/zustand.svg"
+        }
+      ]
+    },
+    {
+      "id": "mobile-desktop",
+      "name": "モバイル・デスクトップ",
+      "readmeName": "Mobile & Desktop",
+      "items": [
+        {
+          "id": "net-maui",
+          "name": ".NET MAUI",
+          "color": "512BD4",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "dotnet",
+            "source": "https://github.com/dotnet/brand/blob/c7d0f51b8ec59531332d05fb27a5b758a7a3d689/logo/dotnet-logo.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/net-maui.svg"
+        },
+        {
+          "id": "android-sdk",
+          "name": "Android SDK",
+          "color": "3DDC84",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "android",
+            "source": "https://partnermarketinghub.withgoogle.com/brands/android/visual-identity/visual-identity/logo-lock-ups",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/android-sdk.svg"
+        },
+        {
+          "id": "app-intents",
+          "name": "App Intents",
+          "color": "F05138",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "swift",
+            "source": "https://developer.apple.com/swift/resources/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/app-intents.svg"
+        },
+        {
+          "id": "arkit",
+          "name": "ARKit",
+          "color": "F05138",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "swift",
+            "source": "https://developer.apple.com/swift/resources/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/arkit.svg"
+        },
+        {
+          "id": "avfoundation",
+          "name": "AVFoundation",
+          "color": "F05138",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "swift",
+            "source": "https://developer.apple.com/swift/resources/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/avfoundation.svg"
+        },
+        {
+          "id": "bloc",
+          "name": "Bloc",
+          "color": "02569B",
+          "icon": {
+            "provider": "category",
+            "key": "mobile-desktop",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/bloc.svg"
+        },
+        {
+          "id": "cloudkit",
+          "name": "CloudKit",
+          "color": "F05138",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "swift",
+            "source": "https://developer.apple.com/swift/resources/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/cloudkit.svg"
+        },
+        {
+          "id": "combine",
+          "name": "Combine",
+          "color": "F05138",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "swift",
+            "source": "https://developer.apple.com/swift/resources/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/combine.svg"
+        },
+        {
+          "id": "core-data",
+          "name": "Core Data",
+          "color": "F05138",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "swift",
+            "source": "https://developer.apple.com/swift/resources/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/core-data.svg"
+        },
+        {
+          "id": "core-ml",
+          "name": "Core ML",
+          "color": "F05138",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "swift",
+            "source": "https://developer.apple.com/swift/resources/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/core-ml.svg"
+        },
+        {
+          "id": "electron",
+          "name": "Electron",
+          "color": "47848F",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "electron",
+            "source": "https://www.electronjs.org",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/electron.svg"
+        },
+        {
+          "id": "expo",
+          "name": "Expo",
+          "color": "1C2024",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "expo",
+            "source": "https://expo.dev/brand/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/expo.svg"
+        },
+        {
+          "name": "Flutter",
+          "id": "flutter",
+          "color": "02569B",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "flutter",
+            "source": "https://flutter.dev/brand",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/flutter.svg"
+        },
+        {
+          "id": "jetpack-compose",
+          "name": "Jetpack Compose",
+          "color": "4285F4",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "jetpackcompose",
+            "source": "https://developer.android.com/jetpack/compose/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/jetpack-compose.svg"
+        },
+        {
+          "id": "qt",
+          "name": "Qt",
+          "color": "41CD52",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "qt",
+            "source": "https://www.qt.io",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/qt.svg"
+        },
+        {
+          "id": "react-native",
+          "name": "React Native",
+          "color": "61DAFB",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-reactnative",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/reactnative/reactnative-original.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/react-native.svg"
+        },
+        {
+          "id": "riverpod",
+          "name": "Riverpod",
+          "color": "02569B",
+          "icon": {
+            "provider": "category",
+            "key": "mobile-desktop",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/riverpod.svg"
+        },
+        {
+          "id": "swiftdata",
+          "name": "SwiftData",
+          "color": "F05138",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "swift",
+            "source": "https://developer.apple.com/swift/resources/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/swiftdata.svg"
+        },
+        {
+          "id": "swiftui",
+          "name": "SwiftUI",
+          "color": "FA7343",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "swift",
+            "source": "https://developer.apple.com/swift/resources/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/swiftui.svg"
+        },
+        {
+          "id": "tauri",
+          "name": "Tauri",
+          "color": "24C8D8",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "tauri",
+            "source": "https://github.com/tauri-apps/tauri-docs/blob/b1cdfa9d7c6d0b17dae60a90266ddced40a7b384/static/img/tauri.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/tauri.svg"
+        },
+        {
+          "id": "uikit",
+          "name": "UIKit",
+          "color": "2396F3",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "uikit",
+            "source": "https://getuikit.com",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/uikit.svg"
+        },
+        {
+          "id": "vision-framework",
+          "name": "Vision Framework",
+          "color": "F05138",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "swift",
+            "source": "https://developer.apple.com/swift/resources/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/vision-framework.svg"
+        },
+        {
+          "id": "widgetkit",
+          "name": "WidgetKit",
+          "color": "F05138",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "swift",
+            "source": "https://developer.apple.com/swift/resources/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/widgetkit.svg"
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "name": "バックエンド・API",
+      "readmeName": "Backend & APIs",
+      "items": [
+        {
+          "id": "asp-net-core",
+          "name": "ASP.NET Core",
+          "color": "512BD4",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "dotnet",
+            "source": "https://github.com/dotnet/brand/blob/c7d0f51b8ec59531332d05fb27a5b758a7a3d689/logo/dotnet-logo.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/asp-net-core.svg"
+        },
+        {
+          "id": "bun",
+          "name": "Bun",
+          "color": "000000",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "bun",
+            "source": "https://bun.sh/press-kit",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/bun.svg"
+        },
+        {
+          "id": "deno",
+          "name": "Deno",
+          "color": "000000",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "deno",
+            "source": "https://github.com/denoland/docs/blob/5dee713844c7447f80acd4093caa9d350d80bf36/static/img/logo.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/deno.svg"
+        },
+        {
+          "id": "django",
+          "name": "Django",
+          "color": "092E20",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "django",
+            "source": "https://www.djangoproject.com/community/logos/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/django.svg"
+        },
+        {
+          "id": "express",
+          "name": "Express",
+          "color": "0A0A0A",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "express",
+            "source": "https://github.com/openjs-foundation/artwork/blob/3816245ebbf4707bdafde748350ac8476b6b5b62/projects/express/express-icon-black.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/express.svg"
+        },
+        {
+          "id": "fastapi",
+          "name": "FastAPI",
+          "color": "009688",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "fastapi",
+            "source": "https://github.com/tiangolo/fastapi/blob/ffb4f77a11f83132b521ba0aac6c95792c19e797/docs/en/docs/img/icon-white.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/fastapi.svg"
+        },
+        {
+          "id": "fastify",
+          "name": "Fastify",
+          "color": "000000",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "fastify",
+            "source": "https://github.com/fastify/graphics/blob/91e8a3d4754807de3b69440f66c72a737a5fde94/fastify-1000px-square-02.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/fastify.svg"
+        },
+        {
+          "id": "flask",
+          "name": "Flask",
+          "color": "3BABC3",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "flask",
+            "source": "https://github.com/pallets/flask/blob/85c5d93cbd049c4bd0679c36fd1ddcae8c37b642/docs/_static/flask-icon.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/flask.svg"
+        },
+        {
+          "id": "gin",
+          "name": "Gin",
+          "color": "008ECF",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "gin",
+            "source": "https://github.com/gin-gonic/logo/blob/eecb3150aa7ce5a77b97fd834276b2b6958eaa9d/wb.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/gin.svg"
+        },
+        {
+          "id": "graphql",
+          "name": "GraphQL",
+          "color": "E10098",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "graphql",
+            "source": "https://graphql.org/brand",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/graphql.svg"
+        },
+        {
+          "id": "grpc",
+          "name": "gRPC",
+          "color": "00B0AD",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-grpc",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/grpc/grpc-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/grpc.svg"
+        },
+        {
+          "id": "hono",
+          "name": "Hono",
+          "color": "E36002",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "hono",
+            "source": "https://github.com/honojs/hono/blob/76dbc74407329c46870af6aa4fab0c04036d8ae2/docs/images/hono-logo.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/hono.svg"
+        },
+        {
+          "id": "laravel",
+          "name": "Laravel",
+          "color": "FF2D20",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "laravel",
+            "source": "https://github.com/laravel/art/tree/5a8325b064634b900f25dbb6f1cafd888b2d2211",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/laravel.svg"
+        },
+        {
+          "id": "nestjs",
+          "name": "NestJS",
+          "color": "E0234E",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "nestjs",
+            "source": "https://nestjs.com",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/nestjs.svg"
+        },
+        {
+          "id": "node-js",
+          "name": "Node.js",
+          "color": "5FA04E",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "nodedotjs",
+            "source": "https://nodejs.org/en/about/branding",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/node-js.svg"
+        },
+        {
+          "id": "oauth-2-0",
+          "name": "OAuth 2.0",
+          "color": "059669",
+          "icon": {
+            "provider": "category",
+            "key": "backend",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/oauth-2-0.svg"
+        },
+        {
+          "id": "openid-connect",
+          "name": "OpenID Connect",
+          "color": "059669",
+          "icon": {
+            "provider": "category",
+            "key": "backend",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/openid-connect.svg"
+        },
+        {
+          "id": "phoenix",
+          "name": "Phoenix",
+          "color": "FD4F00",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-phoenix",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/phoenix/phoenix-original.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/phoenix.svg"
+        },
+        {
+          "id": "rest-api",
+          "name": "REST API",
+          "color": "059669",
+          "icon": {
+            "provider": "category",
+            "key": "backend",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/rest-api.svg"
+        },
+        {
+          "id": "ruby-on-rails",
+          "name": "Ruby on Rails",
+          "color": "D30001",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "rubyonrails",
+            "source": "https://github.com/simple-icons/simple-icons/issues/9619#issuecomment-1735150580",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/ruby-on-rails.svg"
+        },
+        {
+          "id": "spring-boot",
+          "name": "Spring Boot",
+          "color": "6DB33F",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "springboot",
+            "source": "https://spring.io/projects",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/spring-boot.svg"
+        },
+        {
+          "id": "websocket",
+          "name": "WebSocket",
+          "color": "059669",
+          "icon": {
+            "provider": "category",
+            "key": "backend",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/websocket.svg"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "AI・機械学習・LLM",
+      "readmeName": "AI & Machine Learning",
+      "items": [
+        {
+          "name": "Azure OCR",
+          "id": "azure-ocr",
+          "color": "0078D4",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-azure",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/azure/azure-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/azure-ocr.svg"
+        },
+        {
+          "id": "catboost",
+          "name": "CatBoost",
+          "color": "FFCC00",
+          "icon": {
+            "provider": "project",
+            "key": "catboost",
+            "source": "https://raw.githubusercontent.com/catboost/catboost/master/logo/catboost.png",
+            "license": "Apache-2.0"
+          },
+          "badgePath": "assets/tech-stack/catboost.svg"
+        },
+        {
+          "id": "claude-api",
+          "name": "Claude API",
+          "color": "191919",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "anthropic",
+            "source": "https://www.anthropic.com",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/claude-api.svg"
+        },
+        {
+          "id": "core-ml-tools",
+          "name": "Core ML Tools",
+          "color": "F05138",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "swift",
+            "source": "https://developer.apple.com/swift/resources/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/core-ml-tools.svg"
+        },
+        {
+          "id": "gemini-api",
+          "name": "Gemini API",
+          "color": "4285F4",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "google",
+            "source": "https://partnermarketinghub.withgoogle.com",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/gemini-api.svg"
+        },
+        {
+          "name": "Google Vision",
+          "id": "google-vision",
+          "color": "4285F4",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "googlecloud",
+            "source": "https://cloud.google.com",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/google-vision.svg"
+        },
+        {
+          "id": "hugging-face",
+          "name": "Hugging Face",
+          "color": "FFD21E",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "huggingface",
+            "source": "https://huggingface.co/brand",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/hugging-face.svg"
+        },
+        {
+          "id": "jax",
+          "name": "JAX",
+          "color": "7C3AED",
+          "icon": {
+            "provider": "category",
+            "key": "ai",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/jax.svg"
+        },
+        {
+          "id": "keras",
+          "name": "Keras",
+          "color": "D00000",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "keras",
+            "source": "https://keras.io",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/keras.svg"
+        },
+        {
+          "id": "langchain",
+          "name": "LangChain",
+          "color": "7FC8FF",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "langchain",
+            "source": "https://www.langchain.com/langchain",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/langchain.svg"
+        },
+        {
+          "id": "langgraph",
+          "name": "LangGraph",
+          "color": "7FC8FF",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "langgraph",
+            "source": "https://www.langchain.com/langgraph",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/langgraph.svg"
+        },
+        {
+          "id": "lightgbm",
+          "name": "LightGBM",
+          "color": "228B22",
+          "icon": {
+            "provider": "project",
+            "key": "lightgbm",
+            "source": "https://raw.githubusercontent.com/lightgbm-org/LightGBM/main/docs/logo/LightGBM_logo_black_text.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/lightgbm.svg"
+        },
+        {
+          "id": "llama-cpp",
+          "name": "llama.cpp",
+          "color": "000000",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "ollama",
+            "source": "https://github.com/ollama/ollama/issues/2152#issuecomment-1905286922",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/llama-cpp.svg"
+        },
+        {
+          "id": "llamaindex",
+          "name": "LlamaIndex",
+          "color": "7C3AED",
+          "icon": {
+            "provider": "category",
+            "key": "ai",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/llamaindex.svg"
+        },
+        {
+          "id": "mcp",
+          "name": "MCP",
+          "color": "000000",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "modelcontextprotocol",
+            "source": "https://github.com/modelcontextprotocol/docs/blob/573dc60c2e7aab2605b29d0bf27194aa7b02e4fb/logo/light.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/mcp.svg"
+        },
+        {
+          "name": "MediaPipe",
+          "id": "mediapipe",
+          "color": "0097A7",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "mediapipe",
+            "source": "https://developers.google.com/static/mediapipe/images/mediapipe_icon.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/mediapipe.svg"
+        },
+        {
+          "id": "mlflow",
+          "name": "MLflow",
+          "color": "0194E2",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "mlflow",
+            "source": "https://github.com/mlflow/mlflow/blob/855881f93703b15ffe643003fb4d7c84f0ec2502/assets/icon.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/mlflow.svg"
+        },
+        {
+          "id": "ollama",
+          "name": "Ollama",
+          "color": "000000",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "ollama",
+            "source": "https://github.com/ollama/ollama/issues/2152#issuecomment-1905286922",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/ollama.svg"
+        },
+        {
+          "id": "onnx",
+          "name": "ONNX",
+          "color": "005CED",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "onnx",
+            "source": "https://github.com/onnx/onnx.github.io/blob/382e7036b616ce1555499ac41730245a2478513c/images/ONNX-ICON.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/onnx.svg"
+        },
+        {
+          "name": "OpenAI",
+          "id": "openai",
+          "color": "412991",
+          "icon": {
+            "provider": "project",
+            "key": "openai",
+            "source": "https://raw.githubusercontent.com/lobehub/lobe-icons/a177c1e817204f8ddc0c8993610ca674fc6d9767/packages/static-svg/icons/openai.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/openai.svg"
+        },
+        {
+          "id": "openai-agents-sdk",
+          "name": "OpenAI Agents SDK",
+          "color": "412991",
+          "icon": {
+            "provider": "project",
+            "key": "openai",
+            "source": "https://raw.githubusercontent.com/lobehub/lobe-icons/a177c1e817204f8ddc0c8993610ca674fc6d9767/packages/static-svg/icons/openai.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/openai-agents-sdk.svg"
+        },
+        {
+          "id": "opencv",
+          "name": "OpenCV",
+          "color": "5C3EE8",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "opencv",
+            "source": "https://opencv.org/resources/media-kit/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/opencv.svg"
+        },
+        {
+          "id": "optuna",
+          "name": "Optuna",
+          "color": "002C76",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "optuna",
+            "source": "https://github.com/optuna/optuna-dashboard/blob/b45523d328ef4796306dd64a93f27ff37c9a36b7/jupyterlab/img/optuna_logo.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/optuna.svg"
+        },
+        {
+          "id": "pytorch",
+          "name": "PyTorch",
+          "color": "EE4C2C",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "pytorch",
+            "source": "https://github.com/pytorch/pytorch.github.io/blob/8f083bd12192ca12d5e1c1f3d236f4831d823d8f/assets/images/logo.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/pytorch.svg"
+        },
+        {
+          "name": "scikit-learn",
+          "id": "scikit-learn",
+          "color": "F7931E",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "scikitlearn",
+            "source": "https://github.com/scikit-learn/scikit-learn/blob/c5ef2e985c13119001aa697e446ebb3dbcb326e5/doc/logos/scikit-learn-logo.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/scikit-learn.svg"
+        },
+        {
+          "id": "shap",
+          "name": "SHAP",
+          "color": "7C3AED",
+          "icon": {
+            "provider": "category",
+            "key": "ai",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/shap.svg"
+        },
+        {
+          "id": "tensorboard",
+          "name": "TensorBoard",
+          "color": "7C3AED",
+          "icon": {
+            "provider": "category",
+            "key": "ai",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/tensorboard.svg"
+        },
+        {
+          "name": "TensorFlow",
+          "id": "tensorflow",
+          "color": "FF6F00",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "tensorflow",
+            "source": "https://www.tensorflow.org",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/tensorflow.svg"
+        },
+        {
+          "id": "transformers",
+          "name": "Transformers",
+          "color": "FFD21E",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "huggingface",
+            "source": "https://huggingface.co/brand",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/transformers.svg"
+        },
+        {
+          "id": "ultralytics-yolo",
+          "name": "Ultralytics YOLO",
+          "color": "7C3AED",
+          "icon": {
+            "provider": "category",
+            "key": "ai",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/ultralytics-yolo.svg"
+        },
+        {
+          "id": "vllm",
+          "name": "vLLM",
+          "color": "30A2FF",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "vllm",
+            "source": "https://github.com/vllm-project/media-kit/blob/79b2ea5db25b723f2d81dae203a87c5b9a076722/vLLM-Logo.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/vllm.svg"
+        },
+        {
+          "id": "weights-biases",
+          "name": "Weights & Biases",
+          "color": "FFBE00",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "weightsandbiases",
+            "source": "https://wandb.ai",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/weights-biases.svg"
+        },
+        {
+          "id": "whisper",
+          "name": "Whisper",
+          "color": "7C3AED",
+          "icon": {
+            "provider": "project",
+            "key": "openai",
+            "source": "https://raw.githubusercontent.com/lobehub/lobe-icons/a177c1e817204f8ddc0c8993610ca674fc6d9767/packages/static-svg/icons/openai.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/whisper.svg"
+        },
+        {
+          "id": "xgboost",
+          "name": "XGBoost",
+          "color": "337AB7",
+          "icon": {
+            "provider": "project",
+            "key": "xgboost",
+            "source": "https://xgboost.ai/images/logo/xgboost-logo-trimmed.png",
+            "license": "Apache-2.0"
+          },
+          "badgePath": "assets/tech-stack/xgboost.svg"
+        }
+      ]
+    },
+    {
+      "id": "data-science",
+      "name": "データ分析・研究",
+      "readmeName": "Data Science & Research",
+      "items": [
+        {
+          "id": "apache-airflow",
+          "name": "Apache Airflow",
+          "color": "017CEE",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "apacheairflow",
+            "source": "https://apache.org/logos",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/apache-airflow.svg"
+        },
+        {
+          "id": "apache-spark",
+          "name": "Apache Spark",
+          "color": "E25A1C",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "apachespark",
+            "source": "https://apache.org/logos",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/apache-spark.svg"
+        },
+        {
+          "id": "dbt",
+          "name": "dbt",
+          "color": "0284C7",
+          "icon": {
+            "provider": "category",
+            "key": "data-science",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/dbt.svg"
+        },
+        {
+          "id": "dplyr",
+          "name": "dplyr",
+          "color": "276DC3",
+          "icon": {
+            "provider": "category",
+            "key": "data-science",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/dplyr.svg"
+        },
+        {
+          "id": "duckdb",
+          "name": "DuckDB",
+          "color": "FFF000",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "duckdb",
+            "source": "https://duckdb.org",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/duckdb.svg"
+        },
+        {
+          "id": "ffmpeg",
+          "name": "FFmpeg",
+          "color": "007808",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "ffmpeg",
+            "source": "https://commons.wikimedia.org/wiki/File:FFmpeg_Logo_new.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/ffmpeg.svg"
+        },
+        {
+          "id": "ggplot2",
+          "name": "ggplot2",
+          "color": "276DC3",
+          "icon": {
+            "provider": "category",
+            "key": "data-science",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/ggplot2.svg"
+        },
+        {
+          "id": "google-colab",
+          "name": "Google Colab",
+          "color": "F9AB00",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "jupyter",
+            "source": "https://github.com/jupyter/design/blob/80716ee75dd7b2a6ec6abcd89922d020483589b1/logos/Logo%20Mark/logomark-whitebody-whitemoons/logomark-whitebody-whitemoons.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/google-colab.svg"
+        },
+        {
+          "id": "gstreamer",
+          "name": "GStreamer",
+          "color": "FF3131",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "gstreamer",
+            "source": "https://gstreamer.freedesktop.org/artwork",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/gstreamer.svg"
+        },
+        {
+          "id": "jupyter",
+          "name": "Jupyter",
+          "color": "F37626",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "jupyter",
+            "source": "https://github.com/jupyter/design/blob/80716ee75dd7b2a6ec6abcd89922d020483589b1/logos/Logo%20Mark/logomark-whitebody-whitemoons/logomark-whitebody-whitemoons.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/jupyter.svg"
+        },
+        {
+          "id": "librosa",
+          "name": "librosa",
+          "color": "0284C7",
+          "icon": {
+            "provider": "category",
+            "key": "data-science",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/librosa.svg"
+        },
+        {
+          "id": "matplotlib",
+          "name": "Matplotlib",
+          "color": "11557C",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-matplotlib",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/matplotlib/matplotlib-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/matplotlib.svg"
+        },
+        {
+          "id": "mne-python",
+          "name": "MNE-Python",
+          "color": "0284C7",
+          "icon": {
+            "provider": "category",
+            "key": "data-science",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/mne-python.svg"
+        },
+        {
+          "id": "numpy",
+          "name": "NumPy",
+          "color": "013243",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "numpy",
+            "source": "https://numpy.org/press-kit/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/numpy.svg"
+        },
+        {
+          "id": "pandas",
+          "name": "pandas",
+          "color": "150458",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "pandas",
+            "source": "https://pandas.pydata.org/about/citing.html",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/pandas.svg"
+        },
+        {
+          "id": "plotly",
+          "name": "Plotly",
+          "color": "7A76FF",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "plotly",
+            "source": "https://plotly.com/brand-guidelines",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/plotly.svg"
+        },
+        {
+          "id": "polars",
+          "name": "Polars",
+          "color": "0075FF",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "polars",
+            "source": "https://pola.rs",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/polars.svg"
+        },
+        {
+          "id": "pymc",
+          "name": "PyMC",
+          "color": "0284C7",
+          "icon": {
+            "provider": "category",
+            "key": "data-science",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/pymc.svg"
+        },
+        {
+          "id": "rstudio",
+          "name": "RStudio",
+          "color": "75AADB",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-rstudio",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/rstudio/rstudio-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/rstudio.svg"
+        },
+        {
+          "id": "scikit-image",
+          "name": "scikit-image",
+          "color": "F7931E",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "scikitlearn",
+            "source": "https://github.com/scikit-learn/scikit-learn/blob/c5ef2e985c13119001aa697e446ebb3dbcb326e5/doc/logos/scikit-learn-logo.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/scikit-image.svg"
+        },
+        {
+          "id": "scipy",
+          "name": "SciPy",
+          "color": "8CAAE6",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "scipy",
+            "source": "https://github.com/scikit-image/skimage-branding/blob/eafb65cbc3a700e3d9c8ba2ba15788fcc8703984/logo/scipy.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/scipy.svg"
+        },
+        {
+          "id": "seaborn",
+          "name": "Seaborn",
+          "color": "444876",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-seaborn",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/seaborn/seaborn-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/seaborn.svg"
+        },
+        {
+          "id": "shiny",
+          "name": "Shiny",
+          "color": "276DC3",
+          "icon": {
+            "provider": "category",
+            "key": "data-science",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/shiny.svg"
+        },
+        {
+          "id": "spss",
+          "name": "SPSS",
+          "color": "CC1E4C",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-spss",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/spss/spss-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/spss.svg"
+        },
+        {
+          "id": "stan",
+          "name": "Stan",
+          "color": "0284C7",
+          "icon": {
+            "provider": "category",
+            "key": "data-science",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/stan.svg"
+        },
+        {
+          "id": "statsmodels",
+          "name": "statsmodels",
+          "color": "013243",
+          "icon": {
+            "provider": "category",
+            "key": "data-science",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/statsmodels.svg"
+        },
+        {
+          "id": "tidyverse",
+          "name": "tidyverse",
+          "color": "1A162D",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "tidyverse",
+            "source": "https://github.com/rstudio/hex-stickers/blob/69528093ef59f541e5a4798dbcb00e60267e8870/SVG/tidyverse.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/tidyverse.svg"
+        }
+      ]
+    },
+    {
+      "id": "databases",
+      "name": "データベース・ストレージ",
+      "readmeName": "Databases & Storage",
+      "items": [
+        {
+          "id": "amazon-rds",
+          "name": "Amazon RDS",
+          "color": "FF9900",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-amazonwebservices",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/amazonwebservices/amazonwebservices-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/amazon-rds.svg"
+        },
+        {
+          "id": "appwrite",
+          "name": "Appwrite",
+          "color": "FD366E",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "appwrite",
+            "source": "https://appwrite.io/assets",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/appwrite.svg"
+        },
+        {
+          "id": "bigquery",
+          "name": "BigQuery",
+          "color": "669DF6",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "googlebigquery",
+            "source": "https://cloud.google.com/bigquery",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/bigquery.svg"
+        },
+        {
+          "id": "chroma",
+          "name": "Chroma",
+          "color": "0F766E",
+          "icon": {
+            "provider": "category",
+            "key": "databases",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/chroma.svg"
+        },
+        {
+          "id": "drizzle-orm",
+          "name": "Drizzle ORM",
+          "color": "C5F74F",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "drizzle",
+            "source": "https://orm.drizzle.team",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/drizzle-orm.svg"
+        },
+        {
+          "id": "dynamodb",
+          "name": "DynamoDB",
+          "color": "527FFF",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-dynamodb",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/dynamodb/dynamodb-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/dynamodb.svg"
+        },
+        {
+          "id": "elasticsearch",
+          "name": "Elasticsearch",
+          "color": "005571",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "elasticsearch",
+            "source": "https://www.elastic.co/brand",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/elasticsearch.svg"
+        },
+        {
+          "id": "firestore",
+          "name": "Firestore",
+          "color": "FFCA28",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "firebase",
+            "source": "https://firebase.google.com/brand-guidelines",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/firestore.svg"
+        },
+        {
+          "id": "mariadb",
+          "name": "MariaDB",
+          "color": "003545",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "mariadb",
+            "source": "https://mariadb.com/about-us/logos/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/mariadb.svg"
+        },
+        {
+          "id": "mongodb",
+          "name": "MongoDB",
+          "color": "47A248",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "mongodb",
+            "source": "https://www.mongodb.com/pressroom",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/mongodb.svg"
+        },
+        {
+          "id": "mysql",
+          "name": "MySQL",
+          "color": "4479A1",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "mysql",
+            "source": "https://www.mysql.com/about/legal/logos.html",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/mysql.svg"
+        },
+        {
+          "id": "opensearch",
+          "name": "OpenSearch",
+          "color": "005EB8",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "opensearch",
+            "source": "https://opensearch.org/trademark-brand-policy.html",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/opensearch.svg"
+        },
+        {
+          "id": "pinecone",
+          "name": "Pinecone",
+          "color": "0F766E",
+          "icon": {
+            "provider": "category",
+            "key": "databases",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/pinecone.svg"
+        },
+        {
+          "id": "postgresql",
+          "name": "PostgreSQL",
+          "color": "4169E1",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "postgresql",
+            "source": "https://wiki.postgresql.org/wiki/Logo",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/postgresql.svg"
+        },
+        {
+          "id": "prisma",
+          "name": "Prisma",
+          "color": "2D3748",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "prisma",
+            "source": "https://github.com/prisma/presskit/tree/4bcb64181f266723439d955d60afa1c55fefa715",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/prisma.svg"
+        },
+        {
+          "id": "qdrant",
+          "name": "Qdrant",
+          "color": "DC244C",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "qdrant",
+            "source": "https://qdrant.tech/img/brand-resources-logos/qdrant-brandmark-white.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/qdrant.svg"
+        },
+        {
+          "id": "realm",
+          "name": "Realm",
+          "color": "6E60F9",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-realm",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/realm/realm-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/realm.svg"
+        },
+        {
+          "id": "realtime-database",
+          "name": "Realtime Database",
+          "color": "DD2C00",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "firebase",
+            "source": "https://firebase.google.com/brand-guidelines",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/realtime-database.svg"
+        },
+        {
+          "id": "redis",
+          "name": "Redis",
+          "color": "FF4438",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "redis",
+            "source": "https://redis.io/brand-guidelines",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/redis.svg"
+        },
+        {
+          "id": "snowflake",
+          "name": "Snowflake",
+          "color": "29B5E8",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "snowflake",
+            "source": "https://www.snowflake.com/brand-guidelines/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/snowflake.svg"
+        },
+        {
+          "id": "sqlalchemy",
+          "name": "SQLAlchemy",
+          "color": "D71F00",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "sqlalchemy",
+            "source": "https://commons.wikimedia.org/wiki/File:SQLAlchemy.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/sqlalchemy.svg"
+        },
+        {
+          "id": "sqlite",
+          "name": "SQLite",
+          "color": "003B57",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "sqlite",
+            "source": "https://github.com/sqlite/sqlite/blob/43e862723ec680542ca6f608f9963c0993dd7324/art/sqlite370.eps",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/sqlite.svg"
+        },
+        {
+          "id": "supabase",
+          "name": "Supabase",
+          "color": "3FCF8E",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "supabase",
+            "source": "https://github.com/supabase/supabase/blob/4031a7549f5d46da7bc79c01d56be4177dc7c114/packages/common/assets/images/supabase-logo-wordmark--light.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/supabase.svg"
+        },
+        {
+          "id": "typeorm",
+          "name": "TypeORM",
+          "color": "FE0803",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "typeorm",
+            "source": "https://github.com/typeorm/typeorm/blob/e7649d2746f907ff36b1efb600402dedd5f5a499/resources/logo_big.png",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/typeorm.svg"
+        }
+      ]
+    },
+    {
+      "id": "cloud",
+      "name": "クラウド",
+      "readmeName": "Cloud",
+      "items": [
+        {
+          "id": "amazon-api-gateway",
+          "name": "Amazon API Gateway",
+          "color": "FF9900",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-amazonwebservices",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/amazonwebservices/amazonwebservices-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/amazon-api-gateway.svg"
+        },
+        {
+          "id": "amazon-cloudfront",
+          "name": "Amazon CloudFront",
+          "color": "FF9900",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-amazonwebservices",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/amazonwebservices/amazonwebservices-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/amazon-cloudfront.svg"
+        },
+        {
+          "id": "amazon-cognito",
+          "name": "Amazon Cognito",
+          "color": "FF9900",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-amazonwebservices",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/amazonwebservices/amazonwebservices-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/amazon-cognito.svg"
+        },
+        {
+          "id": "amazon-ec2",
+          "name": "Amazon EC2",
+          "color": "FF9900",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-amazonwebservices",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/amazonwebservices/amazonwebservices-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/amazon-ec2.svg"
+        },
+        {
+          "id": "amazon-ecs",
+          "name": "Amazon ECS",
+          "color": "FF9900",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-amazonwebservices",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/amazonwebservices/amazonwebservices-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/amazon-ecs.svg"
+        },
+        {
+          "id": "amazon-eventbridge",
+          "name": "Amazon EventBridge",
+          "color": "FF9900",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-amazonwebservices",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/amazonwebservices/amazonwebservices-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/amazon-eventbridge.svg"
+        },
+        {
+          "id": "amazon-s3",
+          "name": "Amazon S3",
+          "color": "FF9900",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-amazonwebservices",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/amazonwebservices/amazonwebservices-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/amazon-s3.svg"
+        },
+        {
+          "id": "amazon-sns",
+          "name": "Amazon SNS",
+          "color": "FF9900",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-amazonwebservices",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/amazonwebservices/amazonwebservices-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/amazon-sns.svg"
+        },
+        {
+          "id": "amazon-sqs",
+          "name": "Amazon SQS",
+          "color": "FF9900",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-amazonwebservices",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/amazonwebservices/amazonwebservices-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/amazon-sqs.svg"
+        },
+        {
+          "id": "amazon-vpc",
+          "name": "Amazon VPC",
+          "color": "FF9900",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-amazonwebservices",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/amazonwebservices/amazonwebservices-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/amazon-vpc.svg"
+        },
+        {
+          "name": "AWS",
+          "id": "aws",
+          "color": "232F3E",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-amazonwebservices",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/amazonwebservices/amazonwebservices-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/aws.svg"
+        },
+        {
+          "id": "aws-amplify",
+          "name": "AWS Amplify",
+          "color": "2563EB",
+          "icon": {
+            "provider": "category",
+            "key": "cloud",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/aws-amplify.svg"
+        },
+        {
+          "id": "aws-fargate",
+          "name": "AWS Fargate",
+          "color": "FF9900",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-amazonwebservices",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/amazonwebservices/amazonwebservices-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/aws-fargate.svg"
+        },
+        {
+          "id": "aws-iam",
+          "name": "AWS IAM",
+          "color": "FF9900",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-amazonwebservices",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/amazonwebservices/amazonwebservices-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/aws-iam.svg"
+        },
+        {
+          "id": "aws-lambda",
+          "name": "AWS Lambda",
+          "color": "FF9900",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-amazonwebservices",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/amazonwebservices/amazonwebservices-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/aws-lambda.svg"
+        },
+        {
+          "id": "aws-step-functions",
+          "name": "AWS Step Functions",
+          "color": "FF9900",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-amazonwebservices",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/amazonwebservices/amazonwebservices-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/aws-step-functions.svg"
+        },
+        {
+          "id": "cloud-functions",
+          "name": "Cloud Functions",
+          "color": "4285F4",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "googlecloud",
+            "source": "https://cloud.google.com",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/cloud-functions.svg"
+        },
+        {
+          "id": "cloud-run",
+          "name": "Cloud Run",
+          "color": "4285F4",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-cloudrun",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/cloudrun/cloudrun-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/cloud-run.svg"
+        },
+        {
+          "id": "cloudflare",
+          "name": "Cloudflare",
+          "color": "F38020",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "cloudflare",
+            "source": "https://www.cloudflare.com/logo/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/cloudflare.svg"
+        },
+        {
+          "id": "cloudflare-r2",
+          "name": "Cloudflare R2",
+          "color": "F38020",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "cloudflare",
+            "source": "https://www.cloudflare.com/logo/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/cloudflare-r2.svg"
+        },
+        {
+          "id": "cloudflare-workers",
+          "name": "Cloudflare Workers",
+          "color": "F38020",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "cloudflareworkers",
+            "source": "https://www.cloudflare.com/developer-platform/products/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/cloudflare-workers.svg"
+        },
+        {
+          "name": "Firebase",
+          "id": "firebase",
+          "color": "FFCA28",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "firebase",
+            "source": "https://firebase.google.com/brand-guidelines",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/firebase.svg"
+        },
+        {
+          "id": "firebase-app-check",
+          "name": "Firebase App Check",
+          "color": "DD2C00",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "firebase",
+            "source": "https://firebase.google.com/brand-guidelines",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/firebase-app-check.svg"
+        },
+        {
+          "id": "firebase-authentication",
+          "name": "Firebase Authentication",
+          "color": "DD2C00",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "firebase",
+            "source": "https://firebase.google.com/brand-guidelines",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/firebase-authentication.svg"
+        },
+        {
+          "id": "firebase-cloud-messaging",
+          "name": "Firebase Cloud Messaging",
+          "color": "DD2C00",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "firebase",
+            "source": "https://firebase.google.com/brand-guidelines",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/firebase-cloud-messaging.svg"
+        },
+        {
+          "id": "firebase-hosting",
+          "name": "Firebase Hosting",
+          "color": "DD2C00",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "firebase",
+            "source": "https://firebase.google.com/brand-guidelines",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/firebase-hosting.svg"
+        },
+        {
+          "id": "fly-io",
+          "name": "Fly.io",
+          "color": "24175B",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "flydotio",
+            "source": "https://fly.io/docs/about/brand",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/fly-io.svg"
+        },
+        {
+          "name": "Google Cloud",
+          "id": "gcp",
+          "color": "4285F4",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "googlecloud",
+            "source": "https://cloud.google.com",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/gcp.svg"
+        },
+        {
+          "id": "google-cloud-storage",
+          "name": "Google Cloud Storage",
+          "color": "AECBFA",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "googlecloudstorage",
+            "source": "https://cloud.google.com/icons",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/google-cloud-storage.svg"
+        },
+        {
+          "id": "google-compute-engine",
+          "name": "Google Compute Engine",
+          "color": "4285F4",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "googlecloud",
+            "source": "https://cloud.google.com",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/google-compute-engine.svg"
+        },
+        {
+          "id": "heroku",
+          "name": "Heroku",
+          "color": "6762A6",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-heroku",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/heroku/heroku-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/heroku.svg"
+        },
+        {
+          "id": "microsoft-azure",
+          "name": "Microsoft Azure",
+          "color": "0078D4",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-azure",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/azure/azure-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/microsoft-azure.svg"
+        },
+        {
+          "id": "netlify",
+          "name": "Netlify",
+          "color": "00C7B7",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "netlify",
+            "source": "https://www.netlify.com/press/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/netlify.svg"
+        },
+        {
+          "id": "render",
+          "name": "Render",
+          "color": "000000",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "render",
+            "source": "https://render.com",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/render.svg"
+        },
+        {
+          "id": "vercel",
+          "name": "Vercel",
+          "color": "000000",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "vercel",
+            "source": "https://vercel.com/geist/brands",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/vercel.svg"
+        }
+      ]
+    },
+    {
+      "id": "devops",
+      "name": "開発運用・構成管理・CI/CD",
+      "readmeName": "DevOps & Build",
+      "items": [
+        {
+          "id": "ansible",
+          "name": "Ansible",
+          "color": "EE0000",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "ansible",
+            "source": "https://www.ansible.com/logos",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/ansible.svg"
+        },
+        {
+          "id": "apache-http-server",
+          "name": "Apache HTTP Server",
+          "color": "D22128",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "apache",
+            "source": "https://www.apache.org/foundation/press/kit",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/apache-http-server.svg"
+        },
+        {
+          "id": "app-store-connect",
+          "name": "App Store Connect",
+          "color": "000000",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "apple",
+            "source": "https://www.apple.com",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/app-store-connect.svg"
+        },
+        {
+          "id": "aws-cdk",
+          "name": "AWS CDK",
+          "color": "FF9900",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-amazonwebservices",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/amazonwebservices/amazonwebservices-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/aws-cdk.svg"
+        },
+        {
+          "id": "aws-sam",
+          "name": "AWS SAM",
+          "color": "FF9900",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-amazonwebservices",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/amazonwebservices/amazonwebservices-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/aws-sam.svg"
+        },
+        {
+          "id": "bazel",
+          "name": "Bazel",
+          "color": "43A047",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "bazel",
+            "source": "https://bazel.build",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/bazel.svg"
+        },
+        {
+          "id": "bitbucket",
+          "name": "Bitbucket",
+          "color": "0052CC",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "bitbucket",
+            "source": "https://atlassian.design/resources/logo-library",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/bitbucket.svg"
+        },
+        {
+          "id": "caddy",
+          "name": "Caddy",
+          "color": "1F88C0",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "caddy",
+            "source": "https://caddyserver.com",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/caddy.svg"
+        },
+        {
+          "id": "circleci",
+          "name": "CircleCI",
+          "color": "343434",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "circleci",
+            "source": "https://circleci.com/press",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/circleci.svg"
+        },
+        {
+          "id": "cloudformation",
+          "name": "CloudFormation",
+          "color": "FF9900",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-amazonwebservices",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/amazonwebservices/amazonwebservices-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/cloudformation.svg"
+        },
+        {
+          "id": "cmake",
+          "name": "CMake",
+          "color": "064F8C",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "cmake",
+            "source": "https://www.kitware.com/platforms/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/cmake.svg"
+        },
+        {
+          "id": "conda",
+          "name": "Conda",
+          "color": "44A833",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "anaconda",
+            "source": "https://www.anaconda.com",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/conda.svg"
+        },
+        {
+          "name": "Docker",
+          "id": "docker",
+          "color": "2496ED",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "docker",
+            "source": "https://www.docker.com/company/newsroom/media-resources",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/docker.svg"
+        },
+        {
+          "id": "docker-compose",
+          "name": "Docker Compose",
+          "color": "2496ED",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "docker",
+            "source": "https://www.docker.com/company/newsroom/media-resources",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/docker-compose.svg"
+        },
+        {
+          "id": "fastlane",
+          "name": "Fastlane",
+          "color": "00F200",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "fastlane",
+            "source": "https://github.com/fastlane/fastlane.tools/blob/19ff41a6c0f27510a7a7879e6944809d40ab382e/assets/img/logo-mobile.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/fastlane.svg"
+        },
+        {
+          "id": "git",
+          "name": "Git",
+          "color": "F03C2E",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "git",
+            "source": "https://git-scm.com/community/logos",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/git.svg"
+        },
+        {
+          "id": "github",
+          "name": "GitHub",
+          "color": "181717",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "github",
+            "source": "https://github.com/logos",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/github.svg"
+        },
+        {
+          "id": "github-actions",
+          "name": "GitHub Actions",
+          "color": "2088FF",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "githubactions",
+            "source": "https://github.com/features/actions",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/github-actions.svg"
+        },
+        {
+          "id": "gitlab-ci",
+          "name": "GitLab CI",
+          "color": "FC6D26",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "gitlab",
+            "source": "https://about.gitlab.com/press/press-kit/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/gitlab-ci.svg"
+        },
+        {
+          "id": "gradle",
+          "name": "Gradle",
+          "color": "02303A",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "gradle",
+            "source": "https://gradle.com/brand",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/gradle.svg"
+        },
+        {
+          "id": "helm",
+          "name": "Helm",
+          "color": "0F1689",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "helm",
+            "source": "https://helm.sh",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/helm.svg"
+        },
+        {
+          "id": "jenkins",
+          "name": "Jenkins",
+          "color": "D24939",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "jenkins",
+            "source": "https://get.jenkins.io/art/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/jenkins.svg"
+        },
+        {
+          "id": "kubernetes",
+          "name": "Kubernetes",
+          "color": "326CE5",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "kubernetes",
+            "source": "https://github.com/kubernetes/kubernetes/tree/cac53883f4714452f3084a22e4be20d042a9df33/logo",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/kubernetes.svg"
+        },
+        {
+          "id": "make",
+          "name": "Make",
+          "color": "6D00CC",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "make",
+            "source": "https://www.make.com/en/press",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/make.svg"
+        },
+        {
+          "id": "maven",
+          "name": "Maven",
+          "color": "E97826",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-maven",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/maven/maven-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/maven.svg"
+        },
+        {
+          "id": "nginx",
+          "name": "Nginx",
+          "color": "009639",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "nginx",
+            "source": "https://www.nginx.com/press/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/nginx.svg"
+        },
+        {
+          "id": "npm",
+          "name": "npm",
+          "color": "CB3837",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "npm",
+            "source": "https://www.npmjs.com",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/npm.svg"
+        },
+        {
+          "id": "opentofu",
+          "name": "OpenTofu",
+          "color": "FFDA18",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "opentofu",
+            "source": "https://github.com/opentofu/brand-artifacts/blob/0d4d0d6050ca0ff06471400bc3249a64c145f659/symbol-only/transparent/SVG/on-light-mono.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/opentofu.svg"
+        },
+        {
+          "id": "pip",
+          "name": "pip",
+          "color": "3776AB",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "python",
+            "source": "https://www.python.org/community/logos/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/pip.svg"
+        },
+        {
+          "id": "pnpm",
+          "name": "pnpm",
+          "color": "F69220",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "pnpm",
+            "source": "https://pnpm.io/logos",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/pnpm.svg"
+        },
+        {
+          "id": "podman",
+          "name": "Podman",
+          "color": "892CA0",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "podman",
+            "source": "https://podman.io",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/podman.svg"
+        },
+        {
+          "id": "poetry",
+          "name": "Poetry",
+          "color": "60A5FA",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "poetry",
+            "source": "https://python-poetry.org",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/poetry.svg"
+        },
+        {
+          "id": "terraform",
+          "name": "Terraform",
+          "color": "844FBA",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "terraform",
+            "source": "https://www.hashicorp.com/brand",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/terraform.svg"
+        },
+        {
+          "id": "testflight",
+          "name": "TestFlight",
+          "color": "000000",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "apple",
+            "source": "https://www.apple.com",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/testflight.svg"
+        },
+        {
+          "id": "uv",
+          "name": "uv",
+          "color": "DE5FE9",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "uv",
+            "source": "https://docs.astral.sh/uv/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/uv.svg"
+        },
+        {
+          "id": "yarn",
+          "name": "Yarn",
+          "color": "2C8EBB",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "yarn",
+            "source": "https://github.com/yarnpkg/assets/blob/76d30ca2aebed5b73ea8131d972218fb860bd32d/yarn-kitten-circle.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/yarn.svg"
+        }
+      ]
+    },
+    {
+      "id": "testing",
+      "name": "テスト・品質・セキュリティ",
+      "readmeName": "Testing & Quality",
+      "items": [
+        {
+          "id": "black",
+          "name": "Black",
+          "color": "000000",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "black",
+            "source": "https://black.readthedocs.io",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/black.svg"
+        },
+        {
+          "id": "burp-suite",
+          "name": "Burp Suite",
+          "color": "FF6633",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "burpsuite",
+            "source": "https://portswigger.net",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/burp-suite.svg"
+        },
+        {
+          "id": "codeql",
+          "name": "CodeQL",
+          "color": "181717",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "github",
+            "source": "https://github.com/logos",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/codeql.svg"
+        },
+        {
+          "id": "cypress",
+          "name": "Cypress",
+          "color": "69D3A7",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "cypress",
+            "source": "https://www.cypress.io/press-kit",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/cypress.svg"
+        },
+        {
+          "id": "dart-test",
+          "name": "Dart Test",
+          "color": "0175C2",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "dart",
+            "source": "https://github.com/dart-lang/site-shared/tree/18458ff440afd3d06f04e5cb871c4c5eda29c9d5/src/_assets/image/dart/logo",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/dart-test.svg"
+        },
+        {
+          "id": "dependabot",
+          "name": "Dependabot",
+          "color": "025E8C",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "dependabot",
+            "source": "https://dependabot.com",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/dependabot.svg"
+        },
+        {
+          "id": "eslint",
+          "name": "ESLint",
+          "color": "4B32C3",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "eslint",
+            "source": "https://eslint.org",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/eslint.svg"
+        },
+        {
+          "id": "flutter-test",
+          "name": "Flutter Test",
+          "color": "02569B",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "flutter",
+            "source": "https://flutter.dev/brand",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/flutter-test.svg"
+        },
+        {
+          "id": "jest",
+          "name": "Jest",
+          "color": "C21325",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "jest",
+            "source": "https://jestjs.io",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/jest.svg"
+        },
+        {
+          "id": "jmeter",
+          "name": "JMeter",
+          "color": "D22128",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "apache",
+            "source": "https://www.apache.org/foundation/press/kit",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/jmeter.svg"
+        },
+        {
+          "id": "junit",
+          "name": "JUnit",
+          "color": "DC514A",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-junit",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/junit/junit-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/junit.svg"
+        },
+        {
+          "id": "k6",
+          "name": "k6",
+          "color": "7D64FF",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "k6",
+            "source": "https://commons.wikimedia.org/wiki/File:K6-logo.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/k6.svg"
+        },
+        {
+          "id": "mypy",
+          "name": "mypy",
+          "color": "3776AB",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "python",
+            "source": "https://www.python.org/community/logos/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/mypy.svg"
+        },
+        {
+          "id": "node-js-test-runner",
+          "name": "Node.js Test Runner",
+          "color": "5FA04E",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "nodedotjs",
+            "source": "https://nodejs.org/en/about/branding",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/node-js-test-runner.svg"
+        },
+        {
+          "id": "owasp-zap",
+          "name": "OWASP ZAP",
+          "color": "1B4C85",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "owasp",
+            "source": "https://owasp.org/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/owasp-zap.svg"
+        },
+        {
+          "id": "playwright",
+          "name": "Playwright",
+          "color": "2EAD33",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-playwright",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/playwright/playwright-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/playwright.svg"
+        },
+        {
+          "id": "prettier",
+          "name": "Prettier",
+          "color": "F7B93E",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "prettier",
+            "source": "https://github.com/prettier/prettier-logo/blob/06997b307e0608ebee2044dafa0b9429d6b5a103/images/prettier-icon-clean-centred.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/prettier.svg"
+        },
+        {
+          "id": "pytest",
+          "name": "pytest",
+          "color": "0A9EDC",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "pytest",
+            "source": "https://github.com/pytest-dev/design/blob/081f06cd2d6cd742e68f593560a2e8c1802feb7c/pytest_logo/pytest_logo.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/pytest.svg"
+        },
+        {
+          "id": "ruff",
+          "name": "Ruff",
+          "color": "D7FF64",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "ruff",
+            "source": "https://astral.sh/ruff",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/ruff.svg"
+        },
+        {
+          "id": "selenium",
+          "name": "Selenium",
+          "color": "43B02A",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "selenium",
+            "source": "https://github.com/SeleniumHQ/heroku-selenium/blob/2f66891ba030d3aa1f36ab1748c52ba4fb4e057d/selenium-green.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/selenium.svg"
+        },
+        {
+          "id": "snyk",
+          "name": "Snyk",
+          "color": "4C4A73",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "snyk",
+            "source": "https://snyk.io/press-kit",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/snyk.svg"
+        },
+        {
+          "id": "sonarqube",
+          "name": "SonarQube",
+          "color": "549DD0",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-sonarqube",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/sonarqube/sonarqube-original.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/sonarqube.svg"
+        },
+        {
+          "id": "swift-testing",
+          "name": "Swift Testing",
+          "color": "F05138",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "swift",
+            "source": "https://developer.apple.com/swift/resources/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/swift-testing.svg"
+        },
+        {
+          "id": "swiftlint",
+          "name": "SwiftLint",
+          "color": "F05138",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "swift",
+            "source": "https://developer.apple.com/swift/resources/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/swiftlint.svg"
+        },
+        {
+          "id": "testing-library",
+          "name": "Testing Library",
+          "color": "E33332",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "testinglibrary",
+            "source": "https://testing-library.com",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/testing-library.svg"
+        },
+        {
+          "id": "typescript-compiler",
+          "name": "TypeScript Compiler",
+          "color": "3178C6",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "typescript",
+            "source": "https://www.typescriptlang.org/branding",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/typescript-compiler.svg"
+        },
+        {
+          "id": "unittest",
+          "name": "unittest",
+          "color": "3776AB",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "python",
+            "source": "https://www.python.org/community/logos/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/unittest.svg"
+        },
+        {
+          "id": "vitest",
+          "name": "Vitest",
+          "color": "00FF74",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "vitest",
+            "source": "https://github.com/voidzero-dev/community-design-resources/blob/55902097229cf01cf2a4ceb376f992f5cf306756/brand-assets/vitest/vitest-icon-color-bracketless.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/vitest.svg"
+        },
+        {
+          "id": "xctest",
+          "name": "XCTest",
+          "color": "F05138",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "swift",
+            "source": "https://developer.apple.com/swift/resources/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/xctest.svg"
+        }
+      ]
+    },
+    {
+      "id": "monitoring",
+      "name": "監視・運用・ネットワーク",
+      "readmeName": "Monitoring & Networks",
+      "items": [
+        {
+          "id": "amazon-cloudwatch",
+          "name": "Amazon CloudWatch",
+          "color": "FF9900",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-amazonwebservices",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/amazonwebservices/amazonwebservices-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/amazon-cloudwatch.svg"
+        },
+        {
+          "id": "datadog",
+          "name": "Datadog",
+          "color": "632CA6",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "datadog",
+            "source": "https://www.datadoghq.com/about/resources",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/datadog.svg"
+        },
+        {
+          "id": "firebase-analytics",
+          "name": "Firebase Analytics",
+          "color": "E37400",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "googleanalytics",
+            "source": "https://marketingplatform.google.com/intl/en_uk/about/analytics/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/firebase-analytics.svg"
+        },
+        {
+          "id": "firebase-crashlytics",
+          "name": "Firebase Crashlytics",
+          "color": "DD2C00",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "firebase",
+            "source": "https://firebase.google.com/brand-guidelines",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/firebase-crashlytics.svg"
+        },
+        {
+          "id": "google-analytics",
+          "name": "Google Analytics",
+          "color": "E37400",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "googleanalytics",
+            "source": "https://marketingplatform.google.com/intl/en_uk/about/analytics/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/google-analytics.svg"
+        },
+        {
+          "id": "google-cloud-logging",
+          "name": "Google Cloud Logging",
+          "color": "4285F4",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "googlecloud",
+            "source": "https://cloud.google.com",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/google-cloud-logging.svg"
+        },
+        {
+          "id": "grafana",
+          "name": "Grafana",
+          "color": "F46800",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "grafana",
+            "source": "https://grafana.com",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/grafana.svg"
+        },
+        {
+          "id": "new-relic",
+          "name": "New Relic",
+          "color": "1CE783",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "newrelic",
+            "source": "https://newrelic.com/about/media-assets",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/new-relic.svg"
+        },
+        {
+          "id": "openssh",
+          "name": "OpenSSH",
+          "color": "DC2626",
+          "icon": {
+            "provider": "category",
+            "key": "monitoring",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/openssh.svg"
+        },
+        {
+          "id": "opentelemetry",
+          "name": "OpenTelemetry",
+          "color": "000000",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "opentelemetry",
+            "source": "https://cncf-branding.netlify.app/projects/opentelemetry/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/opentelemetry.svg"
+        },
+        {
+          "id": "openvpn",
+          "name": "OpenVPN",
+          "color": "EA7E20",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "openvpn",
+            "source": "https://openvpn.net",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/openvpn.svg"
+        },
+        {
+          "id": "prometheus",
+          "name": "Prometheus",
+          "color": "E6522C",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "prometheus",
+            "source": "https://prometheus.io",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/prometheus.svg"
+        },
+        {
+          "id": "sentry",
+          "name": "Sentry",
+          "color": "362D59",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "sentry",
+            "source": "https://sentry.io/branding/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/sentry.svg"
+        },
+        {
+          "id": "tailscale",
+          "name": "Tailscale",
+          "color": "242424",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "tailscale",
+            "source": "https://tailscale.com/press",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/tailscale.svg"
+        },
+        {
+          "id": "tcpdump",
+          "name": "tcpdump",
+          "color": "DC2626",
+          "icon": {
+            "provider": "category",
+            "key": "monitoring",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/tcpdump.svg"
+        },
+        {
+          "id": "uptime-kuma",
+          "name": "Uptime Kuma",
+          "color": "5CDD8B",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "uptimekuma",
+            "source": "https://uptime.kuma.pet",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/uptime-kuma.svg"
+        },
+        {
+          "id": "wireguard",
+          "name": "WireGuard",
+          "color": "88171A",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "wireguard",
+            "source": "https://www.wireguard.com",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/wireguard.svg"
+        },
+        {
+          "id": "wireshark",
+          "name": "Wireshark",
+          "color": "1679A7",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "wireshark",
+            "source": "https://gitlab.com/wanduow/wireshark/-/blob/cd5539b0f76975474869984a9d2f0fce29d5c21e/image/wsicon.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/wireshark.svg"
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "name": "エディタ・設計・コラボレーション",
+      "readmeName": "Tools & Design",
+      "items": [
+        {
+          "id": "adobe-xd",
+          "name": "Adobe XD",
+          "color": "470137",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-xd",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/xd/xd-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/adobe-xd.svg"
+        },
+        {
+          "id": "android-studio",
+          "name": "Android Studio",
+          "color": "3DDC84",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "androidstudio",
+            "source": "https://developer.android.com/studio",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/android-studio.svg"
+        },
+        {
+          "id": "bruno",
+          "name": "Bruno",
+          "color": "F4AA41",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "bruno",
+            "source": "https://www.usebruno.com",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/bruno.svg"
+        },
+        {
+          "id": "draw-io",
+          "name": "draw.io",
+          "color": "F08705",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "diagramsdotnet",
+            "source": "https://github.com/jgraph/drawio/blob/4743eba8d5eaa497dc003df7bf7295b695c59bea/src/main/webapp/images/drawlogo.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/draw-io.svg"
+        },
+        {
+          "id": "emacs",
+          "name": "Emacs",
+          "color": "421F5F",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-emacs",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/emacs/emacs-original.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/emacs.svg"
+        },
+        {
+          "id": "figma",
+          "name": "Figma",
+          "color": "F24E1E",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "figma",
+            "source": "https://www.figma.com/using-the-figma-brand/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/figma.svg"
+        },
+        {
+          "id": "insomnia",
+          "name": "Insomnia",
+          "color": "4000BF",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "insomnia",
+            "source": "https://insomnia.rest",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/insomnia.svg"
+        },
+        {
+          "id": "intellij-idea",
+          "name": "IntelliJ IDEA",
+          "color": "000000",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "intellijidea",
+            "source": "https://www.jetbrains.com/idea/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/intellij-idea.svg"
+        },
+        {
+          "id": "jira",
+          "name": "Jira",
+          "color": "0052CC",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "jira",
+            "source": "https://atlassian.design/resources/logo-library",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/jira.svg"
+        },
+        {
+          "id": "linear",
+          "name": "Linear",
+          "color": "5E6AD2",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "linear",
+            "source": "https://linear.app",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/linear.svg"
+        },
+        {
+          "id": "mermaid",
+          "name": "Mermaid",
+          "color": "FF3670",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "mermaid",
+            "source": "https://github.com/mermaid-js/mermaid/blob/f5bd1e08098fa688ef889e73c8b06696e75e62d8/docs/public/mermaid-logo.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/mermaid.svg"
+        },
+        {
+          "id": "neovim",
+          "name": "Neovim",
+          "color": "57A143",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "neovim",
+            "source": "https://neovim.io",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/neovim.svg"
+        },
+        {
+          "id": "notion",
+          "name": "Notion",
+          "color": "000000",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "notion",
+            "source": "https://www.notion.so",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/notion.svg"
+        },
+        {
+          "id": "obsidian",
+          "name": "Obsidian",
+          "color": "7C3AED",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "obsidian",
+            "source": "https://obsidian.md",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/obsidian.svg"
+        },
+        {
+          "id": "plantuml",
+          "name": "PlantUML",
+          "color": "9333EA",
+          "icon": {
+            "provider": "category",
+            "key": "tools",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/plantuml.svg"
+        },
+        {
+          "id": "postman",
+          "name": "Postman",
+          "color": "FF6C37",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "postman",
+            "source": "https://www.getpostman.com/resources/media-assets/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/postman.svg"
+        },
+        {
+          "id": "pycharm",
+          "name": "PyCharm",
+          "color": "000000",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "pycharm",
+            "source": "https://www.jetbrains.com/company/brand/logos/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/pycharm.svg"
+        },
+        {
+          "id": "sketch",
+          "name": "Sketch",
+          "color": "F7B500",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "sketch",
+            "source": "https://www.sketch.com/about-us/#press",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/sketch.svg"
+        },
+        {
+          "id": "vim",
+          "name": "Vim",
+          "color": "019733",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "vim",
+            "source": "https://commons.wikimedia.org/wiki/File:Vimlogo.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/vim.svg"
+        },
+        {
+          "id": "visual-studio",
+          "name": "Visual Studio",
+          "color": "52218A",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-visualstudio",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/visualstudio/visualstudio-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/visual-studio.svg"
+        },
+        {
+          "id": "visual-studio-code",
+          "name": "Visual Studio Code",
+          "color": "3C99D4",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-vscode",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/vscode/vscode-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/visual-studio-code.svg"
+        },
+        {
+          "id": "xcode",
+          "name": "Xcode",
+          "color": "147EFB",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "xcode",
+            "source": "https://developer.apple.com/develop",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/xcode.svg"
+        }
+      ]
+    },
+    {
+      "id": "creative",
+      "name": "ゲーム・3D・クリエイティブ",
+      "readmeName": "Games & Creative",
+      "items": [
+        {
+          "id": "ableton-live",
+          "name": "Ableton Live",
+          "color": "EA580C",
+          "icon": {
+            "provider": "category",
+            "key": "creative",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/ableton-live.svg"
+        },
+        {
+          "id": "adobe-illustrator",
+          "name": "Adobe Illustrator",
+          "color": "330000",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-illustrator",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/illustrator/illustrator-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/adobe-illustrator.svg"
+        },
+        {
+          "id": "adobe-photoshop",
+          "name": "Adobe Photoshop",
+          "color": "001E36",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-photoshop",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/photoshop/photoshop-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/adobe-photoshop.svg"
+        },
+        {
+          "id": "adobe-premiere-pro",
+          "name": "Adobe Premiere Pro",
+          "color": "2A0634",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-premierepro",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/premierepro/premierepro-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/adobe-premiere-pro.svg"
+        },
+        {
+          "id": "blender",
+          "name": "Blender",
+          "color": "E87D0D",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "blender",
+            "source": "https://www.blender.org/about/logo",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/blender.svg"
+        },
+        {
+          "id": "davinci-resolve",
+          "name": "DaVinci Resolve",
+          "color": "233A51",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "davinciresolve",
+            "source": "https://www.blackmagicdesign.com/media/images/davinci-resolve-logo-square",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/davinci-resolve.svg"
+        },
+        {
+          "id": "godot",
+          "name": "Godot",
+          "color": "478CBF",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-godot",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/godot/godot-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/godot.svg"
+        },
+        {
+          "id": "juce",
+          "name": "JUCE",
+          "color": "8DC63F",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "juce",
+            "source": "https://juce.com",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/juce.svg"
+        },
+        {
+          "name": "Max 8",
+          "id": "max-8",
+          "color": "000000",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "cycling74",
+            "source": "https://cycling74.com",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/max-8.svg"
+        },
+        {
+          "id": "metal",
+          "name": "Metal",
+          "color": "F05138",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "swift",
+            "source": "https://developer.apple.com/swift/resources/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/metal.svg"
+        },
+        {
+          "id": "opengl",
+          "name": "OpenGL",
+          "color": "5586A4",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "opengl",
+            "source": "https://www.khronos.org/legal/trademarks",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/opengl.svg"
+        },
+        {
+          "id": "p5-js",
+          "name": "p5.js",
+          "color": "ED225D",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "p5dotjs",
+            "source": "https://p5js.org",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/p5-js.svg"
+        },
+        {
+          "id": "processing",
+          "name": "Processing",
+          "color": "1F34AB",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-processing",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/processing/processing-plain.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/processing.svg"
+        },
+        {
+          "id": "pure-data",
+          "name": "Pure Data",
+          "color": "EA580C",
+          "icon": {
+            "provider": "category",
+            "key": "creative",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/pure-data.svg"
+        },
+        {
+          "id": "supercollider",
+          "name": "SuperCollider",
+          "color": "EA580C",
+          "icon": {
+            "provider": "category",
+            "key": "creative",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/supercollider.svg"
+        },
+        {
+          "id": "touchdesigner",
+          "name": "TouchDesigner",
+          "color": "EA580C",
+          "icon": {
+            "provider": "category",
+            "key": "creative",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/touchdesigner.svg"
+        },
+        {
+          "id": "unity",
+          "name": "Unity",
+          "color": "FFFFFF",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "unity",
+            "source": "https://brand.unity.com",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/unity.svg"
+        },
+        {
+          "id": "unreal-engine",
+          "name": "Unreal Engine",
+          "color": "0E1128",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "unrealengine",
+            "source": "https://www.unrealengine.com/en-US/branding",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/unreal-engine.svg"
+        },
+        {
+          "id": "vulkan",
+          "name": "Vulkan",
+          "color": "A41E22",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "vulkan",
+            "source": "https://www.khronos.org/legal/trademarks",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/vulkan.svg"
+        },
+        {
+          "id": "webgpu",
+          "name": "WebGPU",
+          "color": "005A9C",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "webgpu",
+            "source": "https://www.w3.org/2023/02/webgpu-logos.html",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/webgpu.svg"
+        }
+      ]
+    },
+    {
+      "id": "platforms",
+      "name": "OS・組み込み・ハードウェア",
+      "readmeName": "OS & Hardware",
+      "items": [
+        {
+          "id": "alpine-linux",
+          "name": "Alpine Linux",
+          "color": "0D597F",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "alpinelinux",
+            "source": "https://alpinelinux.org",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/alpine-linux.svg"
+        },
+        {
+          "id": "arch-linux",
+          "name": "Arch Linux",
+          "color": "1793D1",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "archlinux",
+            "source": "https://www.archlinux.org/art",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/arch-linux.svg"
+        },
+        {
+          "id": "arduino",
+          "name": "Arduino",
+          "color": "00878F",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "arduino",
+            "source": "https://www.arduino.cc",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/arduino.svg"
+        },
+        {
+          "id": "bluetooth-low-energy",
+          "name": "Bluetooth Low Energy",
+          "color": "0082FC",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "bluetooth",
+            "source": "https://www.bluetooth.com/develop-with-bluetooth/marketing-branding",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/bluetooth-low-energy.svg"
+        },
+        {
+          "id": "debian",
+          "name": "Debian",
+          "color": "A81D33",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "debian",
+            "source": "https://www.debian.org/logos",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/debian.svg"
+        },
+        {
+          "id": "esp32",
+          "name": "ESP32",
+          "color": "E7352C",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "espressif",
+            "source": "https://www.espressif.com",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/esp32.svg"
+        },
+        {
+          "id": "fedora",
+          "name": "Fedora",
+          "color": "51A2DA",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "fedora",
+            "source": "https://docs.fedoraproject.org/en-US/project/brand/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/fedora.svg"
+        },
+        {
+          "id": "freertos",
+          "name": "FreeRTOS",
+          "color": "0369A1",
+          "icon": {
+            "provider": "category",
+            "key": "platforms",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/freertos.svg"
+        },
+        {
+          "id": "i2c",
+          "name": "I2C",
+          "color": "0369A1",
+          "icon": {
+            "provider": "category",
+            "key": "platforms",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/i2c.svg"
+        },
+        {
+          "name": "Linux",
+          "id": "linux",
+          "color": "FCC624",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "linux",
+            "source": "https://www.linuxfoundation.org/the-linux-mark/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/linux.svg"
+        },
+        {
+          "id": "m5stack",
+          "name": "M5Stack",
+          "color": "0077C8",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "m5stack",
+            "source": "https://static-cdn.m5stack.com/resource/public/assets/m5logo2022.svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/m5stack.svg"
+        },
+        {
+          "id": "macos",
+          "name": "macOS",
+          "color": "000000",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "macos",
+            "source": "https://commons.wikimedia.org/wiki/File:MacOS_wordmark_(2017).svg",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/macos.svg"
+        },
+        {
+          "id": "mqtt",
+          "name": "MQTT",
+          "color": "660066",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "mqtt",
+            "source": "https://mqtt.org",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/mqtt.svg"
+        },
+        {
+          "id": "platformio",
+          "name": "PlatformIO",
+          "color": "F5822A",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "platformio",
+            "source": "https://piolabs.com",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/platformio.svg"
+        },
+        {
+          "id": "raspberry-pi",
+          "name": "Raspberry Pi",
+          "color": "A22846",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "raspberrypi",
+            "source": "https://www.raspberrypi.org/trademark-rules",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/raspberry-pi.svg"
+        },
+        {
+          "id": "ros",
+          "name": "ROS",
+          "color": "22314E",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "ros",
+            "source": "https://www.ros.org/press-kit/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/ros.svg"
+        },
+        {
+          "id": "ros-2",
+          "name": "ROS 2",
+          "color": "22314E",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "ros",
+            "source": "https://www.ros.org/press-kit/",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/ros-2.svg"
+        },
+        {
+          "id": "spi",
+          "name": "SPI",
+          "color": "0369A1",
+          "icon": {
+            "provider": "category",
+            "key": "platforms",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/spi.svg"
+        },
+        {
+          "id": "uart",
+          "name": "UART",
+          "color": "0369A1",
+          "icon": {
+            "provider": "category",
+            "key": "platforms",
+            "source": "generated category symbol"
+          },
+          "badgePath": "assets/tech-stack/uart.svg"
+        },
+        {
+          "name": "Ubuntu",
+          "id": "ubuntu",
+          "color": "E95420",
+          "icon": {
+            "provider": "simple-icons",
+            "key": "ubuntu",
+            "source": "https://design.ubuntu.com/resources",
+            "license": "CC0-1.0"
+          },
+          "badgePath": "assets/tech-stack/ubuntu.svg"
+        },
+        {
+          "id": "windows",
+          "name": "Windows",
+          "color": "0078D4",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-windows11",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/windows11/windows11-original.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/windows.svg"
+        },
+        {
+          "id": "windows-server",
+          "name": "Windows Server",
+          "color": "0078D4",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-windows11",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/windows11/windows11-original.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/windows-server.svg"
+        },
+        {
+          "id": "wsl",
+          "name": "WSL",
+          "color": "0078D4",
+          "icon": {
+            "provider": "devicon",
+            "key": "devicon-windows11",
+            "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/windows11/windows11-original.svg",
+            "license": "MIT"
+          },
+          "badgePath": "assets/tech-stack/wsl.svg"
+        }
+      ]
+    }
+  ]
+}

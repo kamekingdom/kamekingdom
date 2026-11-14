@@ -3,61 +3,114 @@ Bridging advanced AI research with real-world impact through hands-on system dev
 
 ---
 
-### Engineering in this repository
-
-This profile includes a JavaScript pipeline that turns GitHub contribution data
-into a self-contained animated SVG, with no runtime npm dependencies.
-
-| Focus | Implementation and evidence |
-| --- | --- |
-| Data pipeline | [GraphQL calendar normalization](src/contributions.mjs) → [route generation and SVG rendering](src/svg.mjs) |
-| Reliability | [Regression tests](test/svg.test.mjs) for route continuity, partial weeks, boundary input, and fade timing |
-| Delivery | [Offline PR validation](.github/workflows/validate.yml) and [scheduled publication](.github/workflows/pacman-contributions.yml) |
-| Design decisions | [Architecture and tradeoffs](docs/architecture.md) · [Local development](CONTRIBUTING.md) |
-
-[Issues](https://github.com/kamekingdom/kamekingdom/issues) · [Pull requests](https://github.com/kamekingdom/kamekingdom/pulls) · [Third-party attribution](THIRD_PARTY_NOTICES.md)
-
----
-
 <!-- ─── Tech Stack ─────────────────────────────────────────── -->
 ### Tech Stack
 
-<details>
-<summary>Languages, frameworks, and tools</summary>
+<!-- tech-stack:start -->
+**Languages**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
+![C](assets/tech-stack/c.svg)
+![C#](assets/tech-stack/csharp.svg)
+![C++](assets/tech-stack/cpp.svg)
+![Dart](assets/tech-stack/dart.svg)
+![Java](assets/tech-stack/java.svg)
+![JavaScript](assets/tech-stack/javascript.svg)
+![PHP](assets/tech-stack/php.svg)
+![PowerShell](assets/tech-stack/powershell.svg)
+![Python](assets/tech-stack/python.svg)
+![R](assets/tech-stack/r.svg)
+![SQL](assets/tech-stack/sql.svg)
+![Swift](assets/tech-stack/swift.svg)
+![TypeScript](assets/tech-stack/typescript.svg)
 
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+**Frontend**
 
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Azure OCR](https://img.shields.io/badge/Azure%20OCR-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Google Vision](https://img.shields.io/badge/Google%20Vision-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-FF6F00?style=for-the-badge&logo=google&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Bootstrap](assets/tech-stack/bootstrap.svg)
+![CSS3](assets/tech-stack/css3.svg)
+![HTML5](assets/tech-stack/html5.svg)
+![jQuery](assets/tech-stack/jquery.svg)
+![Next.js](assets/tech-stack/next-js.svg)
+![React](assets/tech-stack/react.svg)
+![Tailwind CSS](assets/tech-stack/tailwind-css.svg)
+![Vite](assets/tech-stack/vite.svg)
+![Vue.js](assets/tech-stack/vue-js.svg)
 
-![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+**Mobile & Desktop**
 
-![Max 8](https://img.shields.io/badge/Max%208-000000?style=for-the-badge&logo=cycling74&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Flutter](assets/tech-stack/flutter.svg)
+![SwiftUI](assets/tech-stack/swiftui.svg)
 
-</details>
+**Backend & APIs**
+
+![Django](assets/tech-stack/django.svg)
+![FastAPI](assets/tech-stack/fastapi.svg)
+![Laravel](assets/tech-stack/laravel.svg)
+![Node.js](assets/tech-stack/node-js.svg)
+![REST API](assets/tech-stack/rest-api.svg)
+![Ruby on Rails](assets/tech-stack/ruby-on-rails.svg)
+
+**AI & Machine Learning**
+
+![Azure OCR](assets/tech-stack/azure-ocr.svg)
+![CatBoost](assets/tech-stack/catboost.svg)
+![Claude API](assets/tech-stack/claude-api.svg)
+![Gemini API](assets/tech-stack/gemini-api.svg)
+![Google Vision](assets/tech-stack/google-vision.svg)
+![Hugging Face](assets/tech-stack/hugging-face.svg)
+![LightGBM](assets/tech-stack/lightgbm.svg)
+![MCP](assets/tech-stack/mcp.svg)
+![MediaPipe](assets/tech-stack/mediapipe.svg)
+![OpenAI](assets/tech-stack/openai.svg)
+![OpenAI Agents SDK](assets/tech-stack/openai-agents-sdk.svg)
+![PyTorch](assets/tech-stack/pytorch.svg)
+![scikit-learn](assets/tech-stack/scikit-learn.svg)
+![TensorFlow](assets/tech-stack/tensorflow.svg)
+![Transformers](assets/tech-stack/transformers.svg)
+![Ultralytics YOLO](assets/tech-stack/ultralytics-yolo.svg)
+![vLLM](assets/tech-stack/vllm.svg)
+![XGBoost](assets/tech-stack/xgboost.svg)
+
+**Data Science & Research**
+
+![Google Colab](assets/tech-stack/google-colab.svg)
+![Jupyter](assets/tech-stack/jupyter.svg)
+![Matplotlib](assets/tech-stack/matplotlib.svg)
+![NumPy](assets/tech-stack/numpy.svg)
+![pandas](assets/tech-stack/pandas.svg)
+![SciPy](assets/tech-stack/scipy.svg)
+![Seaborn](assets/tech-stack/seaborn.svg)
+
+**Databases & Storage**
+
+![Firestore](assets/tech-stack/firestore.svg)
+![MySQL](assets/tech-stack/mysql.svg)
+![PostgreSQL](assets/tech-stack/postgresql.svg)
+
+**Cloud**
+
+![AWS](assets/tech-stack/aws.svg)
+![Firebase](assets/tech-stack/firebase.svg)
+![Google Cloud](assets/tech-stack/gcp.svg)
+![Microsoft Azure](assets/tech-stack/microsoft-azure.svg)
+
+**DevOps & Build**
+
+![Docker](assets/tech-stack/docker.svg)
+![Git](assets/tech-stack/git.svg)
+![GitHub](assets/tech-stack/github.svg)
+
+**Games & Creative**
+
+![Blender](assets/tech-stack/blender.svg)
+![Godot](assets/tech-stack/godot.svg)
+![Max 8](assets/tech-stack/max-8.svg)
+![Unity](assets/tech-stack/unity.svg)
+
+**OS & Hardware**
+
+![Linux](assets/tech-stack/linux.svg)
+![Ubuntu](assets/tech-stack/ubuntu.svg)
+<!-- tech-stack:end -->
 <!-- ────────────────────────────────────────────────────────── -->
 
 ---

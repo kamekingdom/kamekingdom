@@ -31,6 +31,14 @@ jobs:
       - name: Run regression tests
         run: npm test
 
+      - name: Install badge generation tools
+        run: npm ci --ignore-scripts
+
+      - name: Verify committed badge images are reproducible
+        run: |
+          npm run tech-stack:badges
+          git diff --exit-code -- assets/tech-stack data/tech-stack-logo-sources.json
+
       - name: Generate an offline demo
         run: npm run demo
 
