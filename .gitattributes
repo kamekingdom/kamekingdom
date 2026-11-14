@@ -1,0 +1,3 @@
+assets/tech-stack/*.svg linguist-generated=true
+assets/tech-stack/sources/** linguist-vendored=true
+assets/tech-stack/licenses/** linguist-vendored=true

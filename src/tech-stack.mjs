@@ -19,7 +19,11 @@ export function catalogItems(catalog) {
       if (typeof item.name !== "string" || !item.name.trim() || /[\r\n]/.test(item.name)) {
         throw new Error(`Invalid Tech Stack name: ${item.id}`);
       }
-      if (item.badgeUrl) {
+      if (item.badgePath) {
+        if (item.badgePath !== `assets/tech-stack/${item.id}.svg` || !/^[A-Fa-f0-9]{6}$/.test(item.color) || !item.icon) {
+          throw new Error(`Invalid local badge definition: ${item.id}`);
+        }
+      } else if (item.badgeUrl) {
         const url = new URL(item.badgeUrl);
         if (url.protocol !== "https:" || url.hostname !== "img.shields.io" ||
             !url.pathname.startsWith("/badge/") || /[\s()]/.test(item.badgeUrl)) {
@@ -65,6 +69,7 @@ export function parseSelection(body, catalog, { requireComplete = true } = {}) {
 const escapeMarkdown = (text) => text.replace(/[\\[\]]/g, "\\$&");
 
 export function badgeUrl(item) {
+  if (item.badgePath) return item.badgePath;
   if (item.badgeUrl) return item.badgeUrl;
   const label = encodeURIComponent(item.name.replaceAll("_", "__").replaceAll("-", "--"));
   return `https://img.shields.io/badge/${label}-${item.color}?style=for-the-badge`;
@@ -75,9 +80,11 @@ export function renderBadges(catalog, selected) {
   for (const id of selected) {
     if (!allowed.has(id)) throw new Error(`Unknown selected Tech Stack ID: ${id}`);
   }
-  return catalog.categories.map((category) => category.items
-    .filter((item) => selected.has(item.id))
-    .map((item) => `![${escapeMarkdown(item.name)}](${badgeUrl(item)})`).join("\n"))
+  return catalog.categories.map((category) => {
+    const badges = category.items.filter((item) => selected.has(item.id))
+      .map((item) => `![${escapeMarkdown(item.name)}](${badgeUrl(item)})`).join("\n");
+    return badges && (category.readmeName ? `**${escapeMarkdown(category.readmeName)}**\n\n${badges}` : badges);
+  })
     .filter(Boolean).join("\n\n");
 }
 
@@ -89,7 +96,7 @@ export function updateReadme(readme, catalog, selected) {
 export function selectionFromReadme(readme, catalog) {
   const { content } = markedRegion(readme, README_START, README_END);
   return new Set(catalogItems(catalog)
-    .filter((item) => content.includes(`](${badgeUrl(item)})`)).map((item) => item.id));
+    .filter((item) => content.includes(`![${escapeMarkdown(item.name)}](`)).map((item) => item.id));
 }
 
 export function buildChecklist(catalog, selected) {
