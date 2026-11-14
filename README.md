@@ -82,6 +82,8 @@ Bridging advanced AI research with real-world impact through hands-on system dev
 ![GitHub](https://img.shields.io/badge/GitHub-4B5563?style=for-the-badge)
 
 ![Unity](https://img.shields.io/badge/Unity-4B5563?style=for-the-badge)
+![Godot](https://img.shields.io/badge/Godot-4B5563?style=for-the-badge)
+![Blender](https://img.shields.io/badge/Blender-4B5563?style=for-the-badge)
 <!-- tech-stack:end -->
 <!-- ────────────────────────────────────────────────────────── -->
 
