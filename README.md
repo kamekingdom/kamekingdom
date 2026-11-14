@@ -75,6 +75,8 @@ Bridging advanced AI research with real-world impact through hands-on system dev
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4B5563?style=for-the-badge)
 ![MySQL](https://img.shields.io/badge/MySQL-4B5563?style=for-the-badge)
 ![Firestore](https://img.shields.io/badge/Firestore-4B5563?style=for-the-badge)
+
+![Microsoft Azure](https://img.shields.io/badge/Microsoft%20Azure-4B5563?style=for-the-badge)
 <!-- tech-stack:end -->
 <!-- ────────────────────────────────────────────────────────── -->
 
