@@ -1,5 +1,6 @@
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
+import { createHash } from "node:crypto";
 import test from "node:test";
 import {
   README_START, README_END, buildChecklist, catalogItems, parseSelection,
@@ -145,5 +146,52 @@ test("permission errors do not retry and repeated conflicts have a bound", async
       },
     }), /Write failed/);
     assert.equal(writes, expected);
+  }
+});
+
+test("brand badges exist for every candidate and embed their icons without remote resources", () => {
+  const data = JSON.parse(readFileSync(new URL("../data/tech-stack.json", import.meta.url), "utf8"));
+  for (const item of catalogItems(data)) {
+    const svg = readFileSync(new URL(`../${item.badgePath}`, import.meta.url), "utf8");
+    assert.match(svg, /<svg[^>]*height="28"/);
+    assert.match(svg, /<image[^>]*href="data:image\/(svg\+xml|png);base64,/);
+    assert.doesNotMatch(svg, /(?:href|src)="https?:/);
+    assert.notEqual(item.color, "4B5563", item.id);
+  }
+});
+
+test("missing legacy brand logos use actual cached logo sources", () => {
+  const data = JSON.parse(readFileSync(new URL("../data/tech-stack.json", import.meta.url), "utf8"));
+  const items = new Map(catalogItems(data).map((item) => [item.id, item]));
+  for (const id of ["aws", "css3", "csharp", "openai", "azure-ocr", "microsoft-azure"]) {
+    const item = items.get(id);
+    assert.ok(["devicon", "project"].includes(item.icon.provider), id);
+    const svg = readFileSync(new URL(`../${item.badgePath}`, import.meta.url), "utf8");
+    const embedded = svg.match(/href="data:image\/svg\+xml;base64,([^"]+)"/)[1];
+    assert.match(Buffer.from(embedded, "base64").toString(), /<path\b/);
+  }
+});
+
+test("original and newly selected technologies share their actual domains", () => {
+  const data = JSON.parse(readFileSync(new URL("../data/tech-stack.json", import.meta.url), "utf8"));
+  const domain = new Map(data.categories.flatMap((category) => category.items.map((item) => [item.id, category.id])));
+  assert.equal(domain.get("typescript"), domain.get("python"));
+  assert.equal(domain.get("react"), domain.get("vue-js"));
+  assert.equal(domain.get("tensorflow"), domain.get("pytorch"));
+  assert.equal(domain.get("aws"), domain.get("microsoft-azure"));
+  assert.notEqual(domain.get("docker"), domain.get("aws"));
+  assert.equal(domain.get("ubuntu"), domain.get("linux"));
+  const readme = renderBadges(data, new Set(["python", "typescript", "aws", "microsoft-azure"]));
+  assert.equal((readme.match(/\*\*Languages\*\*/g) ?? []).length, 1);
+  assert.equal((readme.match(/\*\*Cloud\*\*/g) ?? []).length, 1);
+  assert.doesNotMatch(readme, /Frontend/);
+});
+
+test("cached upstream logo files match their recorded hashes", () => {
+  const manifest = JSON.parse(readFileSync(new URL("../data/tech-stack-logo-sources.json", import.meta.url), "utf8"));
+  for (const [key, source] of Object.entries(manifest.sources)) {
+    const bytes = readFileSync(new URL(`../${source.file}`, import.meta.url));
+    assert.equal(createHash("sha256").update(bytes).digest("hex"), source.sha256, key);
+    assert.match(source.url, /^https:\/\//);
   }
 });

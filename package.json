@@ -9,7 +9,12 @@
     "test": "node --test",
     "tech-stack:sync": "node scripts/sync-tech-stack.mjs",
     "tech-stack:checklist": "node scripts/sync-tech-stack.mjs --checklist",
+    "tech-stack:badges": "node scripts/build-tech-stack-badges.mjs",
     "demo": "node src/generate.mjs --demo --out dist",
     "build": "node src/generate.mjs --out dist"
+  },
+  "devDependencies": {
+    "badge-maker": "6.0.0",
+    "simple-icons": "16.37.0"
   }
 }
