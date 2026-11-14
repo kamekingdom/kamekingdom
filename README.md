@@ -57,6 +57,10 @@ Bridging advanced AI research with real-world impact through hands-on system dev
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-4B5563?style=for-the-badge)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-4B5563?style=for-the-badge)
+![Transformers](https://img.shields.io/badge/Transformers-4B5563?style=for-the-badge)
+![XGBoost](https://img.shields.io/badge/XGBoost-4B5563?style=for-the-badge)
+![LightGBM](https://img.shields.io/badge/LightGBM-4B5563?style=for-the-badge)
+![CatBoost](https://img.shields.io/badge/CatBoost-4B5563?style=for-the-badge)
 <!-- tech-stack:end -->
 <!-- ────────────────────────────────────────────────────────── -->
 
